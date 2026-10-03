@@ -1,0 +1,211 @@
+Package: com.kidsautopro.kidsauto
+Name: KidsAuto v4
+Description: KidsAuto Pro iOS, Support from version 12.x - 26.x
+Author: KidsAuto - Cường Trần
+Maintainer: Dev by Cường Trần
+Section: Tweaks
+Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
+Architecture: iphoneos-arm64e
+Version: 26.10.01-10+roothide
+Installed-Size: 12360
+Filename: debs/PUBLIC_KidsAutov4_26.10.01-10+roothide_iphoneos-arm64e.deb
+Size: 2230294
+MD5sum: 06bb379065d1c01cb9d3744ef309b348
+SHA256: bfdf1cca0e927101a44dad46f084b0ae771b9459ad6e208e63047e95a0b78de8
+
+Package: com.kidsautopro.kidsauto
+Name: KidsAuto v4
+Description: KidsAuto Pro iOS, Support from version 12.x - 16.x
+Author: KidsAuto - Cường Trần
+Maintainer: Dev by Cường Trần
+Section: Tweaks
+Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
+Architecture: iphoneos-arm64e
+Version: 26.09.09-10+roothide
+Installed-Size: 12240
+Filename: debs/Public_KidsAutov4_26.09.09-10+roothide_iphoneos-arm64e.deb
+Size: 2175328
+MD5sum: be6eb3ebfd2e7357bed829ae40e87d31
+SHA256: 95debda77a233a0fba5cbadba57ae048559406d8049a2be2b9f93ef72584a2e2
+
+Package: cm90.crossoveripc
+Name: CrossOverIPC
+Depends: mobilesubstrate
+Description: A cross-process communication tool for sending and receiving messages on iOS 15 & 16 for any root type JBs
+Maintainer: @CrazyMind90 - Mod by KidsDev91
+Author: @CrazyMind90
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.3.2+roothide
+Installed-Size: 304
+Filename: debs/cm90.crossoveripc_1.3.2+roothide_iphoneos-arm64e.deb
+Size: 9838
+MD5sum: 5a5146f3b71aea4986b000560038579e
+SHA256: 1f0d08fd6e452d5ae30efd05cbb38a7693afe4b3105676ee138618158d5a1682
+
+Package: com.iosapp.kidschanger
+Name: iOS Kids Changer
+Description: iOS app changer control with KidsAutov4
+Maintainer: KidsDev91 <https://t.me/Life6868>
+Author: KidsDev91
+Section: Utilities
+Tag: role::developer compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
+Pre-Depends: firmware (>= 13.4), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
+Depends: zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, com.simpzan.jetsamctl, preferenceloader, ws.hbang.common
+Conflicts: firmware (<< 13.4), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting, com.kids.utilities
+Architecture: iphoneos-arm64e
+Version: 4.1.5+roothide
+Installed-Size: 1824
+Filename: debs/com.iosapp.kidschanger_4.1.5+roothide_iphoneos-arm64e.deb
+Size: 518206
+MD5sum: 5db03e33787b34d8d7f3d479bd0320f0
+SHA256: 81291426328d8fdbce67e3629f2e538cb2410c466a09c370a8ee70409cd7707b
+
+Package: com.simpzan.jetsamctl
+Name: JetsamCTL
+Description: a command line tool and on-demand service to set/get jetsam limit.
+Maintainer: Samuel Zhang - KidsDev91 (Re-Mod)
+Author: Samuel Zhang - KidsDev91 (Re-Mod)
+Section: System
+Tag: role::hacker
+Depends: cm90.crossoveripc
+Architecture: iphoneos-arm64e
+Version: 1.3+roothide
+Installed-Size: 172
+Filename: debs/com.simpzan.jetsamctl_1.3+roothide_iphoneos-arm64e.deb
+Size: 7370
+MD5sum: c8680280c1ba9fd5917b18ae939ce11a
+SHA256: b8641afe0e48f6a420daa43905df087cd28354d1eef2d114ce98c1b574525819
+
+Package: com.iosapp.kidschanger
+Name: iOS Kids Changer
+Description: iOS app changer control with KidsAutov4
+Maintainer: KidsDev91 <https://t.me/Life6868>
+Author: KidsDev91
+Section: Utilities
+Tag: role::developer compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
+Pre-Depends: firmware (>= 13.4), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
+Depends: zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, com.simpzan.jetsamctl, preferenceloader, ws.hbang.common
+Conflicts: firmware (<< 13.4), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting, com.kids.utilities
+Architecture: iphoneos-arm64e
+Version: 4.1.7+roothide
+Installed-Size: 1844
+Filename: debs/iOSKidsChanger_4.1.7+roothide_iphoneos-arm64e.deb
+Size: 526684
+MD5sum: c22a563dfd19a620cb33c889355d17b8
+SHA256: 28ee18042bc5462a871b48af546f6d8769c25eb5e06e48a0dc52eccb2744c4cf
+
+Package: me.jjolano.fmwk.hookkit
+Name: HookKit Framework
+Description: An iOS developer framework for unified hooking methods. Stable with KidsAuto
+Maintainer: jjolano
+Author: jjolano
+Section: Development
+Tag: role::developer
+Depends: firmware (>= 15.0), me.jjolano.fmwk.modulous (>> 1.0.9), me.jjolano.fmwk.rootbridge (>> 1.0.2)
+Architecture: iphoneos-arm64e
+Version: 1.0.17~10+roothide
+Installed-Size: 172
+Filename: debs/me.jjolano.fmwk.hookkit_1.0.17~10+roothide_iphoneos-arm64e.deb
+Size: 12008
+MD5sum: c56665eff08793bf9e8a8572ed526966
+SHA256: f014a4ae72a62951910e53ac7df4db140b23996c807bc8ed16e00173a158ccbd
+
+Package: me.jjolano.fmwk.modulous
+Name: Modulous Framework
+Description: An iOS developer framework for modular software. Stable with KidsAuto
+Maintainer: jjolano
+Author: jjolano
+Section: Development
+Tag: role::developer
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.10~1+roothide
+Installed-Size: 168
+Filename: debs/me.jjolano.fmwk.modulous_1.0.10~1+roothide_iphoneos-arm64e.deb
+Size: 5892
+MD5sum: 681a08f038999b58fb19b7ccf777195e
+SHA256: cb51c3592128dd36365390cc610a759c10d1cd961d17902df554ebe8b105b8b9
+
+Package: me.jjolano.fmwk.rootbridge
+Name: RootBridge Framework
+Description: An iOS developer framework for rootless tweak development. Stable with KidsAuto
+Maintainer: jjolano
+Author: jjolano
+Section: Development
+Tag: role::developer
+Depends: firmware (>= 15.0)
+Architecture: iphoneos-arm64e
+Version: 1.0.3~1+roothide
+Installed-Size: 168
+Filename: debs/me.jjolano.fmwk.rootbridge_1.0.3~1+roothide_iphoneos-arm64e.deb
+Size: 3952
+MD5sum: a27f7271bc6910fad303107bdd7a8262
+SHA256: c0af79ee08e108655ff7935f87494cb0db59076bd50be9c49a08a2418af0b6a7
+
+Package: me.jjolano.hkmodule.ellekit
+Name: HookKit Module (ElleKit)
+Pre-Depends: me.jjolano.fmwk.hookkit
+Depends: ellekit
+Provides: me.jjolano.hkmodule.substrate
+Description: This module provides the ElleKit API for HookKit Framework.
+Maintainer: jjolano
+Author: jjolano
+Section: HookKit (Modules)
+Architecture: iphoneos-arm64e
+Version: 1.0.8~1+roothide
+Installed-Size: 168
+Filename: debs/me.jjolano.hkmodule.ellekit_1.0.8~1+roothide_iphoneos-arm64e.deb
+Size: 4852
+MD5sum: a73b22fdbf16aaa1e251cb7a0f6f6659
+SHA256: 615070e6f3e37d55e84bbae6de737856c28878906834b42d721417d87d30645f
+
+Package: preferenceloader
+Description: load preferences in style
+Maintainer: ProcursusTeam <support@procurs.us>
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader
+Depends: mobilesubstrate
+Section: System
+Architecture: iphoneos-arm64e
+Version: 2.2.6-11+debug
+Installed-Size: 456
+Filename: debs/preferenceloader_2.2.6-11+debug_iphoneos-arm64e.deb
+Size: 27818
+MD5sum: a2e0ba8d486df80c3deebee923f9081e
+SHA256: 2713b727e8d14c553e6d39a3ef10f967073240f995d40a471026f36dc50c0fea
+
+Package: vn.sonnguyen.kids.bridge-kit
+Name: Kids LAN Bridge Kit
+Version: 0.1.0+roothide
+Architecture: iphoneos-arm64e
+Section: Utilities
+Maintainer: Sonnguyen
+Depends: com.kidsautopro.kidsauto (= 26.10.01-10+roothide), com.iosapp.kidschanger (= 4.1.7+roothide), ldid, openssh, curl
+Description: Tested ARM64 bridge payloads and manual installation scripts
+ Staged files only; no account, token, private RSA key or device activation
+ material included. Configure each device before manual activation.
+Filename: debs/vn.sonnguyen.kids.bridge-kit_0.1.0+roothide_iphoneos-arm64e.deb
+Size: 1187432
+MD5sum: 7e2fc410fb976c788e52c7d4e2b2aa9e
+SHA256: bc52c5a9293660573d724091aa592d1880ccb6570a457186d8714ee5b667abb5
+
+Package: ws.hbang.common
+Name: Cephei Tweak Support
+Depends: firmware (>= 15.0)
+Description: Support library for tweaks
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Author: HASHBANG Productions <support@hbang.ws>
+Section: Development
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Depiction: https://chariz.com/get/cephei
+Support: https://hashbang.productions/support/
+Tag: role::developer, compatible_min::ios15.0
+Architecture: iphoneos-arm64e
+Version: 2.0-29
+Installed-Size: 3132
+Filename: debs/ws.hbang.common_2.0-29_iphoneos-arm64e.deb
+Size: 304566
+MD5sum: 8f10a20e69b6196d558680c6de959a10
+SHA256: fd69a700d66bf44f4e579fb65cc5bdbd86c5dfd6726888639502b251f63b230b
+

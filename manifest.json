@@ -1,0 +1,410 @@
+[
+  {
+    "filename": "PUBLIC_KidsAutov4_26.10.01-10+roothide_iphoneos-arm64e.deb",
+    "package": "com.kidsautopro.kidsauto",
+    "version": "26.10.01-10+roothide",
+    "architecture": "iphoneos-arm64e",
+    "group": "roothide",
+    "sha256": "bfdf1cca0e927101a44dad46f084b0ae771b9459ad6e208e63047e95a0b78de8"
+  },
+  {
+    "filename": "PUBLIC_KidsAutov4_26.10.01-10+rootless_iphoneos-arm64.deb",
+    "package": "com.kidsautopro.kidsauto",
+    "version": "26.10.01-10+rootless",
+    "architecture": "iphoneos-arm64",
+    "group": "rootless",
+    "sha256": "4b7772ca2aadf7660d29aba7975ae3381b4b56cff13c75303c54c85835fd29e8"
+  },
+  {
+    "filename": "Public_KidsAutov4_26.09.09-10+rootfull_iphoneos-arm.deb",
+    "package": "com.kidsautopro.kidsauto",
+    "version": "26.09.09-10+rootfull",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "d4754219f996f0474fb8170cf025156b5ee5c29eb4c064f895118ec42e9ad204"
+  },
+  {
+    "filename": "Public_KidsAutov4_26.09.09-10+roothide_iphoneos-arm64e.deb",
+    "package": "com.kidsautopro.kidsauto",
+    "version": "26.09.09-10+roothide",
+    "architecture": "iphoneos-arm64e",
+    "group": "roothide",
+    "sha256": "95debda77a233a0fba5cbadba57ae048559406d8049a2be2b9f93ef72584a2e2"
+  },
+  {
+    "filename": "Public_KidsAutov4_26.09.09-10+rootless_iphoneos-arm64.deb",
+    "package": "com.kidsautopro.kidsauto",
+    "version": "26.09.09-10+rootless",
+    "architecture": "iphoneos-arm64",
+    "group": "rootless",
+    "sha256": "462f30af68ec4a710302bdcc28a40501c6dc49c47ecaa60a23c6657cef4f5498"
+  },
+  {
+    "filename": "cm90.crossoveripc_1.1.1_iphoneos-arm.deb",
+    "package": "cm90.crossoveripc",
+    "version": "1.1.1",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "ddb3e71389bd80dea9093ba597f81821da54d36855af2d339701a6282310ef74"
+  },
+  {
+    "filename": "cm90.crossoveripc_1.1.1_iphoneos-arm64.deb",
+    "package": "cm90.crossoveripc",
+    "version": "1.1.1",
+    "architecture": "iphoneos-arm64",
+    "group": "rootless",
+    "sha256": "8dd77f4a27884ee5434cf8e18df31cb609ffa79520fa356197ccedd8073852ad"
+  },
+  {
+    "filename": "cm90.crossoveripc_1.3.1-1~rootless_iphoneos-arm64.deb",
+    "package": "cm90.crossoveripc",
+    "version": "1.3.1~rootless",
+    "architecture": "iphoneos-arm64",
+    "group": "rootless",
+    "sha256": "ca4fe9f44135320ca6ffed3cd4d9685aa879991eea98bddde7bf2da3bd638000"
+  },
+  {
+    "filename": "cm90.crossoveripc_1.3.2+roothide_iphoneos-arm64e.deb",
+    "package": "cm90.crossoveripc",
+    "version": "1.3.2+roothide",
+    "architecture": "iphoneos-arm64e",
+    "group": "roothide",
+    "sha256": "1f0d08fd6e452d5ae30efd05cbb38a7693afe4b3105676ee138618158d5a1682"
+  },
+  {
+    "filename": "com.ex.substitute_2.3.1.deb",
+    "package": "com.ex.substitute",
+    "version": "2.3.1",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "b37592166962f70a5b1bafc15848f229b4689bb60a9bbc61431b8be361193fd6"
+  },
+  {
+    "filename": "com.iosapp.kidschanger_4.1.5+rootfull_iphoneos-arm.deb",
+    "package": "com.iosapp.kidschanger",
+    "version": "4.1.5+rootfull",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "9ade77005e2f0ec6253980164de056793dc379cd09f26e146185167487e8c6d6"
+  },
+  {
+    "filename": "com.iosapp.kidschanger_4.1.5+roothide_iphoneos-arm64e.deb",
+    "package": "com.iosapp.kidschanger",
+    "version": "4.1.5+roothide",
+    "architecture": "iphoneos-arm64e",
+    "group": "roothide",
+    "sha256": "81291426328d8fdbce67e3629f2e538cb2410c466a09c370a8ee70409cd7707b"
+  },
+  {
+    "filename": "com.iosapp.kidschanger_4.1.5+rootless_iphoneos-arm64.deb",
+    "package": "com.iosapp.kidschanger",
+    "version": "4.1.5+rootless",
+    "architecture": "iphoneos-arm64",
+    "group": "rootless",
+    "sha256": "d6024959abd25060b2601f48cc2dfde04f89ecc9468f8a08dab3883559e0e36d"
+  },
+  {
+    "filename": "com.kids.utilities_25.06.27~checkra1n_iphoneos-arm.deb",
+    "package": "com.kids.utilities",
+    "version": "25.06.27~checkra1n",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "50ef633f6a5fbfbfd76ca476a5bddb3c6551f4582cdf63ca5a13300cfeede696"
+  },
+  {
+    "filename": "com.kids.utilities_25.07.22-2~rootfull_iphoneos-arm.deb",
+    "package": "com.kids.utilities",
+    "version": "25.07.22-2~rootfull",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "85d947a517160d3dda3683585b51649d0fa8a1dc7f577c03e194b41ac366ef6d"
+  },
+  {
+    "filename": "com.kids.utilities_25.12.1+rootfull_ios14.deb",
+    "package": "com.kids.utilities",
+    "version": "25.12.1+rootfull",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "23652145622913ea0332a8108ecd729ccfe0f3b62ef0203df2eb3277cb6debdd"
+  },
+  {
+    "filename": "com.kids.utilities_25.12.2+rootfull_ios15.deb",
+    "package": "com.kids.utilities",
+    "version": "25.12.2+rootfull",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "ac5e40055c868c135de832645d2f02666b0a7f5cbcaae00c45fc0a04592fd238"
+  },
+  {
+    "filename": "com.muirey03.cr4shed_4.3.0_iphoneos-arm.deb",
+    "package": "com.muirey03.cr4shed",
+    "version": "4.3.0",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "7a58e56ff3b6e13a3ab604f35cf1d04300e28f95b8f5cee1ef0bbbee80dba049"
+  },
+  {
+    "filename": "com.muirey03.libmryipc_2.0.1_iphoneos-arm.deb",
+    "package": "com.muirey03.libmryipc",
+    "version": "2.0.1",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "76fa3736f20e5939704e705be043c94c201649ca3b6db6dcf24a88c6cce9840a"
+  },
+  {
+    "filename": "com.opa334.altlist_1.0.11_iphoneos-arm64.deb",
+    "package": "com.opa334.altlist",
+    "version": "1.0.11",
+    "architecture": "iphoneos-arm64",
+    "group": "rootless",
+    "sha256": "5835a6b0eacd5d99d272b3f74a744b28b1c4c16ada03aade36d0a636bca5e1f0"
+  },
+  {
+    "filename": "com.opa334.libsandy_1.1.4_iphoneos-arm.deb",
+    "package": "com.opa334.libsandy",
+    "version": "1.1.4",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "e80b6573fec6cbe3d30274683d2df7692642c70546fe3321247328c97058d010"
+  },
+  {
+    "filename": "com.opa334.libsandy_1.1.4_iphoneos-arm64.deb",
+    "package": "com.opa334.libsandy",
+    "version": "1.1.4",
+    "architecture": "iphoneos-arm64",
+    "group": "rootless",
+    "sha256": "582cf388894e54dd2831b988377fef271d38f5befe56e6f14f071f1f5da99855"
+  },
+  {
+    "filename": "com.saurik.substrate.safemode_0.9.6005.deb",
+    "package": "com.saurik.substrate.safemode",
+    "version": "0.9.6005",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "de3f3c5e0bfde32d61e14daaca7a7899a73215f94753a77fca1aa4203b018c87"
+  },
+  {
+    "filename": "com.simpzan.jetsamctl_1.3+rootfull_iphoneos-arm.deb",
+    "package": "com.simpzan.jetsamctl",
+    "version": "1.3+rootfull",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "578897d89ed6a8c2d089f069d8c523d7e67ae5f1b330109c1c95ff530af4bbca"
+  },
+  {
+    "filename": "com.simpzan.jetsamctl_1.3+roothide_iphoneos-arm64e.deb",
+    "package": "com.simpzan.jetsamctl",
+    "version": "1.3+roothide",
+    "architecture": "iphoneos-arm64e",
+    "group": "roothide",
+    "sha256": "b8641afe0e48f6a420daa43905df087cd28354d1eef2d114ce98c1b574525819"
+  },
+  {
+    "filename": "com.simpzan.jetsamctl_1.3+rootless_iphoneos-arm64.deb",
+    "package": "com.simpzan.jetsamctl",
+    "version": "1.3+rootless",
+    "architecture": "iphoneos-arm64",
+    "group": "rootless",
+    "sha256": "d20e3916c64fd04e71df7a6fb49e8a514b2bca63a3bb0a5843c4e94743fef596"
+  },
+  {
+    "filename": "iOSKidsChanger_4.1.7+roothide_iphoneos-arm64e.deb",
+    "package": "com.iosapp.kidschanger",
+    "version": "4.1.7+roothide",
+    "architecture": "iphoneos-arm64e",
+    "group": "roothide",
+    "sha256": "28ee18042bc5462a871b48af546f6d8769c25eb5e06e48a0dc52eccb2744c4cf"
+  },
+  {
+    "filename": "iOSKidsChanger_4.1.7+rootless_iphoneos-arm64.deb",
+    "package": "com.iosapp.kidschanger",
+    "version": "4.1.7+rootless",
+    "architecture": "iphoneos-arm64",
+    "group": "rootless",
+    "sha256": "09a78973107d42ccdf45645c786d9e918a2389b88bce23416d9229758772ff82"
+  },
+  {
+    "filename": "me.jjolano.fmwk.hookkit_1.0.16~13.7_iphoneos-arm.deb",
+    "package": "me.jjolano.fmwk.hookkit",
+    "version": "1.0.16~13.7",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "4dfe99b17c07e37a28ef91f804aca27dd058a498cb1c5e3d45541a4e93c3edb8"
+  },
+  {
+    "filename": "me.jjolano.fmwk.hookkit_1.0.17-1~rootless_iphoneos-arm64.deb",
+    "package": "me.jjolano.fmwk.hookkit",
+    "version": "1.0.17~rootless",
+    "architecture": "iphoneos-arm64",
+    "group": "rootless",
+    "sha256": "f9da5f0a88bf1971bfe0c5449a27984b54d7a691a937efdfaffd66c85062c8f6"
+  },
+  {
+    "filename": "me.jjolano.fmwk.hookkit_1.0.17~10+roothide_iphoneos-arm64e.deb",
+    "package": "me.jjolano.fmwk.hookkit",
+    "version": "1.0.17~10+roothide",
+    "architecture": "iphoneos-arm64e",
+    "group": "roothide",
+    "sha256": "f014a4ae72a62951910e53ac7df4db140b23996c807bc8ed16e00173a158ccbd"
+  },
+  {
+    "filename": "me.jjolano.fmwk.hookkit_1.0.17~14.5_iphoneos-arm.deb",
+    "package": "me.jjolano.fmwk.hookkit",
+    "version": "1.0.17~14.5",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "173f697ef2f54be01b11fac25316911682fe076df0c18122f31daf069459cd49"
+  },
+  {
+    "filename": "me.jjolano.fmwk.modulous_1.0.10-1~rootless_iphoneos-arm64.deb",
+    "package": "me.jjolano.fmwk.modulous",
+    "version": "1.0.10~rootless",
+    "architecture": "iphoneos-arm64",
+    "group": "rootless",
+    "sha256": "3727336dc442069d066397107a198c4fea875e19ac4806181050ecf8ab53848d"
+  },
+  {
+    "filename": "me.jjolano.fmwk.modulous_1.0.10~1+roothide_iphoneos-arm64e.deb",
+    "package": "me.jjolano.fmwk.modulous",
+    "version": "1.0.10~1+roothide",
+    "architecture": "iphoneos-arm64e",
+    "group": "roothide",
+    "sha256": "cb51c3592128dd36365390cc610a759c10d1cd961d17902df554ebe8b105b8b9"
+  },
+  {
+    "filename": "me.jjolano.fmwk.modulous_1.0.10~14.5_iphoneos-arm.deb",
+    "package": "me.jjolano.fmwk.modulous",
+    "version": "1.0.10~14.5",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "eff0f61554927d645a9ec9c8bfdc7babd6c9b03434dd384c27b8185ed0631179"
+  },
+  {
+    "filename": "me.jjolano.fmwk.modulous_1.0.9~13.7_iphoneos-arm.deb",
+    "package": "me.jjolano.fmwk.modulous",
+    "version": "1.0.9~13.7",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "500ddc22da21a6e086107b8f893acdac5bd57d87ff69567cdb349b5d293dbbd9"
+  },
+  {
+    "filename": "me.jjolano.fmwk.rootbridge_1.0.2~13.7_iphoneos-arm.deb",
+    "package": "me.jjolano.fmwk.rootbridge",
+    "version": "1.0.2~13.7",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "cdd2ba7da80b1241452edc4862de93f081f5c3162c962ce32cda1e8f2ab670cb"
+  },
+  {
+    "filename": "me.jjolano.fmwk.rootbridge_1.0.3-1~rootless_iphoneos-arm64.deb",
+    "package": "me.jjolano.fmwk.rootbridge",
+    "version": "1.0.3~rootless",
+    "architecture": "iphoneos-arm64",
+    "group": "rootless",
+    "sha256": "68203f2b0a7e7f767ed631df854822c3a62214aa86969980e4944a093a741d4b"
+  },
+  {
+    "filename": "me.jjolano.fmwk.rootbridge_1.0.3~1+roothide_iphoneos-arm64e.deb",
+    "package": "me.jjolano.fmwk.rootbridge",
+    "version": "1.0.3~1+roothide",
+    "architecture": "iphoneos-arm64e",
+    "group": "roothide",
+    "sha256": "c0af79ee08e108655ff7935f87494cb0db59076bd50be9c49a08a2418af0b6a7"
+  },
+  {
+    "filename": "me.jjolano.fmwk.rootbridge_1.0.3~14.5_iphoneos-arm.deb",
+    "package": "me.jjolano.fmwk.rootbridge",
+    "version": "1.0.3~14.5",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "344b952d5ed5e41ea8ed0c0affba78e93195f63a4222769c08ffd9a9fb1ae2ff"
+  },
+  {
+    "filename": "me.jjolano.hkmodule.ellekit_1.0.7-1_iphoneos-arm64.deb",
+    "package": "me.jjolano.hkmodule.ellekit",
+    "version": "1.0.7",
+    "architecture": "iphoneos-arm64",
+    "group": "rootless",
+    "sha256": "1d1711ca3dd9d3ff769c30eb6769a5fecb7ac6e93be463f19386e176c9eb7361"
+  },
+  {
+    "filename": "me.jjolano.hkmodule.ellekit_1.0.8~1+roothide_iphoneos-arm64e.deb",
+    "package": "me.jjolano.hkmodule.ellekit",
+    "version": "1.0.8~1+roothide",
+    "architecture": "iphoneos-arm64e",
+    "group": "roothide",
+    "sha256": "615070e6f3e37d55e84bbae6de737856c28878906834b42d721417d87d30645f"
+  },
+  {
+    "filename": "me.jjolano.hkmodule.ellekit_1.0.8~rootfull_iphoneos-arm.deb",
+    "package": "me.jjolano.hkmodule.ellekit",
+    "version": "1.0.8~rootfull",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "9acc55e8be97428c36fe69828aca7af4cd32ef8d8e17fb9249d9c4b845207cdc"
+  },
+  {
+    "filename": "me.jjolano.hkmodule.substitute_1.0.11~13.7_iphoneos-arm.deb",
+    "package": "me.jjolano.hkmodule.substitute",
+    "version": "1.0.11~13.7",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "24b720ad803dfe2f9a33ca5c91e92fde306c62f64bd8c8b7b8fe0e813ca443b6"
+  },
+  {
+    "filename": "me.jjolano.hkmodule.substitute_1.0.12~14.5_iphoneos-arm.deb",
+    "package": "me.jjolano.hkmodule.substitute",
+    "version": "1.0.12~14.5",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "4e933a9e4c477060a4da68d216884ee2f675fab2863a989cb555cc35a0e4c01f"
+  },
+  {
+    "filename": "org.coolstar.libhooker-shim_0.0.1.1.deb",
+    "package": "org.coolstar.libhooker",
+    "version": "0.0.1.1",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "b8494aebfa09c62593b76f3685644360d9d30f3c7f61e7d74ae9054575a7de61"
+  },
+  {
+    "filename": "preferenceloader_2.2.6-11+debug_iphoneos-arm64e.deb",
+    "package": "preferenceloader",
+    "version": "2.2.6-11+debug",
+    "architecture": "iphoneos-arm64e",
+    "group": "roothide",
+    "sha256": "2713b727e8d14c553e6d39a3ef10f967073240f995d40a471026f36dc50c0fea"
+  },
+  {
+    "filename": "preferenceloader_2.2.8_iphoneos-arm64.deb",
+    "package": "preferenceloader",
+    "version": "2.2.8",
+    "architecture": "iphoneos-arm64",
+    "group": "rootless",
+    "sha256": "a22e3a248ea18a6fae3ea0ae8f55f5f31f246cd63041cf3ed0c756c2046671dd"
+  },
+  {
+    "filename": "rocketbootstrap_1.1.0_libhooker-shim.deb",
+    "package": "com.rpetrich.rocketbootstrap",
+    "version": "1.1.0~libhooker2",
+    "architecture": "iphoneos-arm",
+    "group": "rootful",
+    "sha256": "6c193c277b455339bea58ea5dd16675bed032f1c3abe8cdb569a80b925e1b3ac"
+  },
+  {
+    "filename": "ws.hbang.common_2.0-29_iphoneos-arm64e.deb",
+    "package": "ws.hbang.common",
+    "version": "2.0-29",
+    "architecture": "iphoneos-arm64e",
+    "group": "roothide",
+    "sha256": "fd69a700d66bf44f4e579fb65cc5bdbd86c5dfd6726888639502b251f63b230b"
+  },
+  {
+    "filename": "ws.hbang.common_2.0_iphoneos-arm64.deb",
+    "package": "ws.hbang.common",
+    "version": "2.0",
+    "architecture": "iphoneos-arm64",
+    "group": "rootless",
+    "sha256": "67338fa3f52951d5cbb900e8582e15dfff5964104bf627643bfe3901cda69652"
+  }
+]

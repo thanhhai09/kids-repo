@@ -1,0 +1,10 @@
+Origin: Sonnguyen LAN test
+Label: Kids RootHide LAN Test
+Suite: stable
+Codename: stable
+Architectures: iphoneos-arm64e
+Components: main
+Description: RootHide originals and staged manual bridge kit
+SHA256:
+ 30e14e357759e61f099c3c31dfa7655a98341891277fd986fd33d912c4575e00 8547 Packages
+ d59e0617aa6196045a17659bb14862b24a3269350b98ec314fd0fa0d99db6d8e 2706 Packages.gz
