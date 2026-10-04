@@ -6,5 +6,5 @@ Architectures: iphoneos-arm64e
 Components: main
 Description: RootHide packages and Kids Bridge V9 for RootHide
 SHA256:
- 49584bb59556a6669805de6415f0d9e81b06d68dade9eea0033b1e1dddc76e66 8552 Packages
- b852430ce0e98b233e741151292eab69de6c2fbae361db0adc44e7fe5ebbd6d2 2702 Packages.gz
+ 079cb69da955832c073cd1d66b163bd6c704c6379c9d25c0a7f25a5c9ea92447 8552 Packages
+ 217de5a80202329e67bdceed21285c73781f8a14dec915352fb9805d54a036ca 2702 Packages.gz
