@@ -168,26 +168,26 @@ Maintainer: Dev by Cường Trần
 Section: Tweaks
 Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
 Architecture: iphoneos-arm64e
-Version: 26.10.01-10+roothide
-Installed-Size: 12360
-Filename: debs/PUBLIC_KidsAutov4_26.10.01-10+roothide_iphoneos-arm64e.deb
-Size: 2230294
-MD5sum: 06bb379065d1c01cb9d3744ef309b348
-SHA256: bfdf1cca0e927101a44dad46f084b0ae771b9459ad6e208e63047e95a0b78de8
+Version: 26.10.03-10+roothide
+Installed-Size: 12392
+Filename: debs/Public_KidsAutov4_26.10.03-10+roothide_iphoneos-arm64e.deb
+Size: 2221754
+MD5sum: b182022921a4638ae70f55ff5732e1e8
+SHA256: b1bacb9abe8a73f0bd4c50ffa7f32a0920b7b45f45960cae77d83e2cb1eccb76
 
 Package: vn.sonnguyen.kids.bridge-kit
-Name: Kids Bridge V7 (iPhone 6s)
-Version: 0.7.0+roothide
+Name: Kids Bridge V8 (iPhone 6s)
+Version: 0.8.0+roothide
 Architecture: iphoneos-arm64e
 Section: Utilities
 Maintainer: Kids Repository
-Depends: com.iosapp.kidschanger (= 4.1.7+roothide), com.kidsautopro.kidsauto (= 26.10.01-10+roothide), roothide, ldid, curl, dpkg, firmware (>= 15.0), firmware (<< 16.0)
+Depends: com.iosapp.kidschanger (= 4.1.7+roothide), com.kidsautopro.kidsauto (= 26.10.03-10+roothide), roothide, ldid, curl, dpkg, firmware (>= 15.0), firmware (<< 16.0)
 Description: Local login token transport and own-server key setup. iPhone 6s / RootHide only; fresh-device installation is not yet verified.
-Installed-Size: 8306
-Filename: debs/vn.sonnguyen.kids.bridge-kit_0.7.0+roothide_iphoneos-arm64e.deb
-Size: 2759138
-MD5sum: 8cf72a7124f66fdb4e0ef8d6e24aad84
-SHA256: c2eef9f3a92736c524ba0c7fb475d6024d5a1b7429b5337073dd69322385f6f2
+Installed-Size: 8338
+Filename: debs/vn.sonnguyen.kids.bridge-kit_0.8.0+roothide_iphoneos-arm64e.deb
+Size: 2761964
+MD5sum: 3330155d222bd93b67fea37282f4a435
+SHA256: 51f523e5c290ae4a37273a4ba435c64cce828b60401fe6ed361b11609323b0f0
 
 Package: ws.hbang.common
 Name: Cephei Tweak Support

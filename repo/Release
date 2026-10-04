@@ -4,7 +4,7 @@ Suite: stable
 Codename: stable
 Architectures: iphoneos-arm64e
 Components: main
-Description: RootHide packages and Kids Bridge V7 for iPhone 6s
+Description: RootHide packages and Kids Bridge V8 for iPhone 6s
 SHA256:
- e8db86e61996855a9358c4063cc753dbe55c0e07186e02a2e7b4ac43712cc9f1 8551 Packages
- 507d765cff1bfb4f6b9e902ca3647150e871ad97606f37081d6f9dce00b888cb 2712 Packages.gz
+ c5e5c270e0b22d8c1bb5fe189a23adc2c08d70247b15382f2df6dbdab5de5415 8551 Packages
+ 39931498fbff199e4aaf0c3e4448116f9d4a83333aba29de7f5850d2329f1dc7 2703 Packages.gz
