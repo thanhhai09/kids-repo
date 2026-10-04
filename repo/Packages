@@ -1,33 +1,3 @@
-Package: com.kidsautopro.kidsauto
-Name: KidsAuto v4
-Description: KidsAuto Pro iOS, Support from version 12.x - 26.x
-Author: KidsAuto - Cường Trần
-Maintainer: Dev by Cường Trần
-Section: Tweaks
-Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
-Architecture: iphoneos-arm64e
-Version: 26.10.01-10+roothide
-Installed-Size: 12360
-Filename: debs/PUBLIC_KidsAutov4_26.10.01-10+roothide_iphoneos-arm64e.deb
-Size: 2230294
-MD5sum: 06bb379065d1c01cb9d3744ef309b348
-SHA256: bfdf1cca0e927101a44dad46f084b0ae771b9459ad6e208e63047e95a0b78de8
-
-Package: com.kidsautopro.kidsauto
-Name: KidsAuto v4
-Description: KidsAuto Pro iOS, Support from version 12.x - 16.x
-Author: KidsAuto - Cường Trần
-Maintainer: Dev by Cường Trần
-Section: Tweaks
-Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
-Architecture: iphoneos-arm64e
-Version: 26.09.09-10+roothide
-Installed-Size: 12240
-Filename: debs/Public_KidsAutov4_26.09.09-10+roothide_iphoneos-arm64e.deb
-Size: 2175328
-MD5sum: be6eb3ebfd2e7357bed829ae40e87d31
-SHA256: 95debda77a233a0fba5cbadba57ae048559406d8049a2be2b9f93ef72584a2e2
-
 Package: cm90.crossoveripc
 Name: CrossOverIPC
 Depends: mobilesubstrate
@@ -175,20 +145,49 @@ Size: 27818
 MD5sum: a2e0ba8d486df80c3deebee923f9081e
 SHA256: 2713b727e8d14c553e6d39a3ef10f967073240f995d40a471026f36dc50c0fea
 
+Package: com.kidsautopro.kidsauto
+Name: KidsAuto v4
+Description: KidsAuto Pro iOS, Support from version 12.x - 16.x
+Author: KidsAuto - Cường Trần
+Maintainer: Dev by Cường Trần
+Section: Tweaks
+Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16
+Architecture: iphoneos-arm64e
+Version: 26.09.09-10+roothide
+Installed-Size: 12240
+Filename: debs/Public_KidsAutov4_26.09.09-10+roothide_iphoneos-arm64e.deb
+Size: 2175328
+MD5sum: be6eb3ebfd2e7357bed829ae40e87d31
+SHA256: 95debda77a233a0fba5cbadba57ae048559406d8049a2be2b9f93ef72584a2e2
+
+Package: com.kidsautopro.kidsauto
+Name: KidsAuto v4
+Description: KidsAuto Pro iOS, Support from version 12.x - 26.x
+Author: KidsAuto - Cường Trần
+Maintainer: Dev by Cường Trần
+Section: Tweaks
+Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
+Architecture: iphoneos-arm64e
+Version: 26.10.01-10+roothide
+Installed-Size: 12360
+Filename: debs/PUBLIC_KidsAutov4_26.10.01-10+roothide_iphoneos-arm64e.deb
+Size: 2230294
+MD5sum: 06bb379065d1c01cb9d3744ef309b348
+SHA256: bfdf1cca0e927101a44dad46f084b0ae771b9459ad6e208e63047e95a0b78de8
+
 Package: vn.sonnguyen.kids.bridge-kit
-Name: Kids LAN Bridge Kit
-Version: 0.1.0+roothide
+Name: Kids Bridge V7 (iPhone 6s)
+Version: 0.7.0+roothide
 Architecture: iphoneos-arm64e
 Section: Utilities
-Maintainer: Sonnguyen
-Depends: com.kidsautopro.kidsauto (= 26.10.01-10+roothide), com.iosapp.kidschanger (= 4.1.7+roothide), ldid, openssh, curl
-Description: Tested ARM64 bridge payloads and manual installation scripts
- Staged files only; no account, token, private RSA key or device activation
- material included. Configure each device before manual activation.
-Filename: debs/vn.sonnguyen.kids.bridge-kit_0.1.0+roothide_iphoneos-arm64e.deb
-Size: 1187432
-MD5sum: 7e2fc410fb976c788e52c7d4e2b2aa9e
-SHA256: bc52c5a9293660573d724091aa592d1880ccb6570a457186d8714ee5b667abb5
+Maintainer: Kids Repository
+Depends: com.iosapp.kidschanger (= 4.1.7+roothide), com.kidsautopro.kidsauto (= 26.10.01-10+roothide), roothide, ldid, curl, dpkg, firmware (>= 15.0), firmware (<< 16.0)
+Description: Local login token transport and own-server key setup. iPhone 6s / RootHide only; fresh-device installation is not yet verified.
+Installed-Size: 8306
+Filename: debs/vn.sonnguyen.kids.bridge-kit_0.7.0+roothide_iphoneos-arm64e.deb
+Size: 2759138
+MD5sum: 8cf72a7124f66fdb4e0ef8d6e24aad84
+SHA256: c2eef9f3a92736c524ba0c7fb475d6024d5a1b7429b5337073dd69322385f6f2
 
 Package: ws.hbang.common
 Name: Cephei Tweak Support

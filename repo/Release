@@ -1,10 +1,10 @@
-Origin: Thanh Hai repo
-Label: Kids RootHide Test
+Origin: Kids Repository
+Label: Kids Repository
 Suite: stable
 Codename: stable
 Architectures: iphoneos-arm64e
 Components: main
-Description: RootHide originals and staged manual bridge kit
+Description: RootHide packages and Kids Bridge V7 for iPhone 6s
 SHA256:
- 30e14e357759e61f099c3c31dfa7655a98341891277fd986fd33d912c4575e00 8547 Packages
- d59e0617aa6196045a17659bb14862b24a3269350b98ec314fd0fa0d99db6d8e 2706 Packages.gz
+ e8db86e61996855a9358c4063cc753dbe55c0e07186e02a2e7b4ac43712cc9f1 8551 Packages
+ 507d765cff1bfb4f6b9e902ca3647150e871ad97606f37081d6f9dce00b888cb 2712 Packages.gz
