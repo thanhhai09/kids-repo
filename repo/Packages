@@ -144,17 +144,17 @@ SHA256: b1bacb9abe8a73f0bd4c50ffa7f32a0920b7b45f45960cae77d83e2cb1eccb76
 
 Package: vn.sonnguyen.kids.bridge-kit
 Name: Kids Bridge App Stability Guards (RootHide)
-Version: 0.11.2+roothide
+Version: 0.11.3+roothide
 Architecture: iphoneos-arm64e
 Section: Utilities
 Maintainer: Kids Repository
 Depends: com.iosapp.kidschanger (= 4.1.7+roothide), com.kidsautopro.kidsauto (= 26.10.03-10+roothide), roothide, ldid, curl, dpkg, openssl, tar, cm90.crossoveripc, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, firmware (>= 15.0), firmware (<< 17.0)
 Description: Local login token transport and own-server key setup. ARM64 and ARM64e RootHide prototype; hardware validation is still required.
 Installed-Size: 8339
-Filename: debs/vn.sonnguyen.kids.bridge-kit_0.11.2+roothide_iphoneos-arm64e.deb
-Size: 2763136
-MD5sum: fce992190e28d9293fcfeaf5709b4792
-SHA256: 69faf85a0f8c1352ef84bb80ecfd8c4e6d71bf4dea2ee512b6036a1b180f250a
+Filename: debs/vn.sonnguyen.kids.bridge-kit_0.11.3+roothide_iphoneos-arm64e.deb
+Size: 2763706
+MD5sum: e37b40384ed07166c4cf563bc21c8ad8
+SHA256: 9412dfdc9ec66725657e29070575fa1e6de95e9670ae15f64638b100ef06157e
 
 Package: ws.hbang.common
 Name: Cephei Tweak Support
