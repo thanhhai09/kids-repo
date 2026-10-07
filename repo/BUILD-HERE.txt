@@ -1,0 +1,1 @@
+Run CHAY-FULL.cmd first. It builds the correct-key Bridge DEB and the complete APT index. Upload repo/ only after build succeeds.
