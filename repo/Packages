@@ -39,12 +39,12 @@ Maintainer: Dev by Cường Trần
 Section: Tweaks
 Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
 Architecture: iphoneos-arm64e
-Version: 26.10.03-10+roothide
-Installed-Size: 12392
-Filename: debs/Public_KidsAutov4_26.10.03-10+roothide_iphoneos-arm64e.deb
-Size: 2221754
-MD5sum: b182022921a4638ae70f55ff5732e1e8
-SHA256: b1bacb9abe8a73f0bd4c50ffa7f32a0920b7b45f45960cae77d83e2cb1eccb76
+Version: 26.10.08-10+roothide
+Installed-Size: 12412
+Filename: debs/Public_KidsAutov4_26.10.08-10+roothide_iphoneos-arm64e.deb
+Size: 2234070
+MD5sum: 4be2da9ea3fe026f393a9c7cb6bd4d79
+SHA256: 92019d2bcc5013a1d7392eb2dd4243bfbc425787c51b293d0929591f26ff8e41
 
 Package: com.simpzan.jetsamctl
 Name: JetsamCTL
@@ -143,18 +143,18 @@ MD5sum: a2e0ba8d486df80c3deebee923f9081e
 SHA256: 2713b727e8d14c553e6d39a3ef10f967073240f995d40a471026f36dc50c0fea
 
 Package: vn.sonnguyen.kids.roothide-v4
-Name: KidsAuto RootHide V4 (iPhone 6s)
-Version: 0.12.4+roothide
+Name: KidsAuto v4 26.10.08 PC NoLock (iPhone 6s)
+Version: 0.13.1+roothide
 Architecture: iphoneos-arm64e
 Section: Utilities
 Maintainer: Kids Repository
-Depends: com.iosapp.kidschanger (= 4.1.7+roothide), com.kidsautopro.kidsauto (= 26.10.03-10+roothide), roothide, firmware (>= 15.8.8), firmware (<< 16.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc
-Description: Fresh-install auth bridge for the LAN backend, Core recovery helper and corrected V4 UA/trace addresses. iPhone 6s candidate; hardware validation pending. One-time PC configuration required.
-Installed-Size: 14274
-Filename: debs/vn.sonnguyen.kids.roothide-v4_0.12.4+roothide_iphoneos-arm64e.deb
-Size: 4778222
-MD5sum: 0ab450826b6e1e77ed50e4ff2c3531fe
-SHA256: 41b232c3b596e684e9a9b8eed6cc7707ea285639c853bc66b8417bebd56922b8
+Depends: com.iosapp.kidschanger (= 4.1.7+roothide), com.kidsautopro.kidsauto (= 26.10.08-10+roothide), roothide, firmware (>= 15.8.8), firmware (<< 16.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc
+Description: Latest original 26.10.08 with LAN authentication bridge, Core recovery and bounded IPC waits. Original browser behavior retained. iPhone 6s candidate; hardware validation pending. One-time PC configuration required.
+Installed-Size: 16676
+Filename: debs/vn.sonnguyen.kids.roothide-v4_0.13.1+roothide_iphoneos-arm64e.deb
+Size: 5527768
+MD5sum: 82283da873976ef5a87719b252acffcb
+SHA256: adebd0c8cbbe8ee31f75a927282b816e84d524c6a28f0ab0412a10cf75edde12
 
 Package: ws.hbang.common
 Name: Cephei Tweak Support
