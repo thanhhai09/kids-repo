@@ -1,13 +1,13 @@
-Origin: Kids Repository
-Label: Kids Repository
+Origin: KidsAuto Local Test
+Label: KidsAuto Wipe 60s
 Suite: stable
-Codename: stable
-Components: main
-Description: Kids RootHide V4 and original packages
+Codename: kidsauto
 Architectures: iphoneos-arm64e
-Date: Fri, 09 Oct 2026 05:17:18 +0000
+Components: main
+Description: Private LAN test repository exported 2026-10-14
+MD5Sum:
+ 875ecf48dbcf932ace126707ccd1353e 2969 Packages
+ 9a486bd3968bc8487c13cd9372a1415e 1265 Packages.gz
 SHA256:
- a8a3c42891c06960b538a880f472756506d38d12e20dcb8680b670d860e1666a 7168 Packages
- a0d4fe4b07c6f472e70fdc9b57c64183f8a7303b88590f3f5337c44843a768dd 2578 Packages.gz
- 924932dd7429ce99b12c739c8e597a63355154177c3683f598fadb8a422bf9a9 2707 Packages.bz2
- f104620661862667792346b22da3f8666391731823b361c65bfe068cbb9a2d2a 2564 Packages.xz
+ a86cd11c3049c106b24a8fed063407f300b2617e39146eff4ace8f0b67396d11 2969 Packages
+ 4588a4e5419d28e62641db7b23e75b3bbf95a29be5b7a5341664989981dd46d7 1265 Packages.gz
