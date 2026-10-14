@@ -1,0 +1,26 @@
+[
+  {
+    "deb": "com.iosapp.kidschanger_4.1.7.1+roothide_iphoneos-arm64e.deb",
+    "directories": 14,
+    "files": 32,
+    "actual_dpkg_unpack": "passed",
+    "file_hashes": "matched",
+    "darwin_scripts": "syntax_checked_not_executed"
+  },
+  {
+    "deb": "com.kidsautopro.kidsauto_26.10.08-10.1+roothide_iphoneos-arm64e.deb",
+    "directories": 18,
+    "files": 34,
+    "actual_dpkg_unpack": "passed",
+    "file_hashes": "matched",
+    "darwin_scripts": "syntax_checked_not_executed"
+  },
+  {
+    "deb": "vn.sonnguyen.kids.roothide-v4_0.14.1+roothide_iphoneos-arm64e.deb",
+    "directories": 7,
+    "files": 36,
+    "actual_dpkg_unpack": "passed",
+    "file_hashes": "matched",
+    "darwin_scripts": "syntax_checked_not_executed"
+  }
+]

@@ -20,7 +20,7 @@ Section: Utilities
 Installed-Size: 1844
 Maintainer: KidsDev91 <https://t.me/Life6868>
 Architecture: iphoneos-arm64e
-Version: 4.1.7+roothide
+Version: 4.1.7.1+roothide
 Depends: zip, unzip, gzip, rsync, sqlite3, openssh, openssl, ldid, com.opa334.libsandy, cm90.crossoveripc, com.simpzan.jetsamctl, preferenceloader, ws.hbang.common, roothide, ldid, com.simpzan.jetsamctl
 Pre-Depends: firmware (>= 13.4), ellekit, me.jjolano.fmwk.hookkit, me.jjolano.hkmodule.ellekit
 Conflicts: firmware (<< 13.4), com.kidsautopro.kidssupport, com.kidsautopro.kidsaction, com.kidsautopro.kidsautosetting, com.kids.utilities
@@ -28,30 +28,30 @@ Description: iOS app changer control with KidsAutov4 Local repack; device brandi
 Name: iOS Kids Changer
 Author: KidsDev91
 Tag: role::developer compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
-Filename: debs/com.iosapp.kidschanger_4.1.7+roothide_iphoneos-arm64e.deb
-Size: 749720
-MD5sum: 43fde130c7c4fdfa44da9ac79e666b90
-SHA1: f25d1e4b6dd7fd4ee34c81764cb4adcda1c8cc6a
-SHA256: eb57e90048de436ec4b01f22b17d79a49ec6b8e5314752a415ae86cd8231ddaa
-SHA512: 29ae65e69cb2f996a831ae653b37692ab962b3808bf2b886a09976c7b11391be8ef6cad8929c04526ec1086464e546046605d9ad1f697c3b07cc06aeb078792b
+Filename: debs/com.iosapp.kidschanger_4.1.7.1+roothide_iphoneos-arm64e.deb
+Size: 749974
+MD5sum: 2c6a5decea19905458cb3b5b43c56bfb
+SHA1: ee7ccd906a21074fb2a4f8fd440875c4dee913b3
+SHA256: d553aa29a40bdfae5273c6c6f6324eae6778f278a86c0b9c99b5c271581319f8
+SHA512: e0ad1b504ba9346f5ad9d870142d155c2c1ca27e0ede6cc8c07240720b1703c13be4e455ea8f53b1bd9f754a1ccb80c3d585968f8c78267df46c0d2ed4696b43
 
 Package: com.kidsautopro.kidsauto
 Section: Tweaks
 Installed-Size: 12412
 Maintainer: Dev by Cường Trần
 Architecture: iphoneos-arm64e
-Version: 26.10.08-10+roothide
+Version: 26.10.08-10.1+roothide
 Description: KidsAuto Pro iOS, Support from version 12.x - 26.x Local repack; device branding and launchd paths regenerated at install.
 Name: KidsAuto v4
 Author: KidsAuto - Cường Trần
 Tag: role::hacker, purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14, compatible::ios15, compatible::ios16, compatible::ios17, compatible::ios18, compatible::ios26
 Depends: roothide, ldid, com.simpzan.jetsamctl
-Filename: debs/com.kidsautopro.kidsauto_26.10.08-10+roothide_iphoneos-arm64e.deb
-Size: 4166346
-MD5sum: efd587b9d84d0fd33ae6084708d9a15f
-SHA1: 30c6a0138a30cfef68e0b74d544a8e245859dede
-SHA256: 3796226776ab90389c54e471e427bbb9eace44231e3bfda69d87657a11dab821
-SHA512: 348a10f86ecbd3651bdd3f854df8da84487e2eedc362d9754d8da9a9e7472de65613bc4ce3af3f8399da63f9a87576a7502e6f08748e940d98670cd8818a0c43
+Filename: debs/com.kidsautopro.kidsauto_26.10.08-10.1+roothide_iphoneos-arm64e.deb
+Size: 4166564
+MD5sum: 6bd7de386fbcf48e918543cec09fdda9
+SHA1: d0f756f1a51947bd624839281bf14782ba6d7504
+SHA256: ce08ae5061e6304b6c3a6f32bfd60e459f6257ee090d6f6795961cb0390d5b40
+SHA512: a7a408766c954f5af2d63b9216151809b67285123b296338052166370cdf5e22fd8065364cd81cb0653c78d460c98239cbe065f3ca8102aeb9b3b401e0bc8e2c
 
 Package: com.simpzan.jetsamctl
 Name: JetsamCTL
@@ -161,37 +161,22 @@ SHA1: d232922d88a46ee8bf70af7fb7d036a4736ebd5b
 SHA256: 2713b727e8d14c553e6d39a3ef10f967073240f995d40a471026f36dc50c0fea
 SHA512: 3aea7f2dee176d33fc584bc4710ded3ee6f57e26dfd41bde1b6492381e0c656bde768109651459e61929656926fef7b407fc640cce516443d459553e81cdadfb
 
-Package: vn.sonnguyen.kids.bridge-kit
-Name: Kids Bridge App Stability Guards (RootHide)
-Version: 0.11.3+roothide
-Architecture: iphoneos-arm64e
-Section: Utilities
-Maintainer: Kids Repository
-Depends: com.iosapp.kidschanger (= 4.1.7+roothide), com.kidsautopro.kidsauto (= 26.10.03-10+roothide), roothide, ldid, curl, dpkg, openssl, tar, cm90.crossoveripc, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, firmware (>= 15.0), firmware (<< 17.0)
-Description: Local login token transport and own-server key setup. ARM64 and ARM64e RootHide prototype; hardware validation is still required.
-Installed-Size: 8339
-Filename: debs/vn.sonnguyen.kids.bridge-kit_0.11.3+roothide_iphoneos-arm64e.deb
-Size: 2763706
-MD5sum: e37b40384ed07166c4cf563bc21c8ad8
-SHA1: 893040f9caae4f1a73f67562c998d2e5ad4e2f14
-SHA256: 9412dfdc9ec66725657e29070575fa1e6de95e9670ae15f64638b100ef06157e
-SHA512: b162b09edf85f55fcfc5245df1a23e9223732ecaa49d25eab051f294951a203e401f03e85c38e9021eaa8f3a1b5aebcb5951453646237f1e8e0f6954926903a2
-
 Package: vn.sonnguyen.kids.roothide-v4
 Section: Utilities
 Installed-Size: 16676
 Maintainer: Kids Repository
 Architecture: iphoneos-arm64e
-Version: 0.14.0+roothide
-Depends: com.iosapp.kidschanger (= 4.1.7+roothide), com.kidsautopro.kidsauto (= 26.10.08-10+roothide), roothide, firmware (>= 15.8.8), firmware (<< 16.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
+Version: 0.14.1+roothide
+Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.8.8), firmware (<< 16.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
 Description: Live iPhone export: wipe timeout 60 seconds per app, exact success callbacks, targeted app termination and 128MB daemon memory guard. RootHide iPhone 6s / iOS 15.8.8-15.x; LAN backend 192.168.10.83:8787. New devices require backend enrollment and provisioning.
 Name: KidsAuto v4 LAN - Wipe 60s Fix (iPhone 6s)
-Filename: debs/vn.sonnguyen.kids.roothide-v4_0.14.0+roothide_iphoneos-arm64e.deb
-Size: 5515352
-MD5sum: 65f1c7bca7843a5aec1f7f4392011027
-SHA1: 4f0e9958dbc22d829648c9e13e3eaf40f60bdedb
-SHA256: 049f12a75ce0acf0192f907ca3ca5f3862d3c829e39cb3550f64e7ff72408638
-SHA512: 1295e99d3e1925bbd0296278a980c254cef3b89324c5709611bc5401b1a5b6a175ca2be0c17f4302f59583bf1f67b293f7a1d869ac33afe3c59b5d04109dcc42
+Conflicts: vn.sonnguyen.kids.bridge-kit
+Filename: debs/vn.sonnguyen.kids.roothide-v4_0.14.1+roothide_iphoneos-arm64e.deb
+Size: 5515524
+MD5sum: 068be3109f35cbbc868264cb4a3bd420
+SHA1: c6148e2d8d852c27eba8ea544645740c65efbae4
+SHA256: c6380e355c46308577b8eeca19776c68225063b92c12c7dbc754fafc9ed359e1
+SHA512: 18ae6cdc8238165cc5e085ecaf6b666a6f9d749bd88ccc3a2660cf6074192e7b5f2804d4c7d58e8de80f7ee26aa0063c252a84c840aafd5322bfb9ed869be1b6
 
 Package: ws.hbang.common
 Name: Cephei Tweak Support
