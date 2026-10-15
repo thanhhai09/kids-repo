@@ -1,1 +1,1 @@
-Prebuilt 0.14.2: upload complete repo/ together. Read ../README.txt. No PC configuration required.
+Prebuilt 0.14.3. Replace the whole repo/ folder on GitHub. Read ../README.txt.

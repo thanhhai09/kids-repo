@@ -166,17 +166,17 @@ Section: Utilities
 Installed-Size: 16676
 Maintainer: Kids Repository
 Architecture: iphoneos-arm64e
-Version: 0.14.2+roothide
+Version: 0.14.3+roothide
 Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.8.8), firmware (<< 16.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
-Description: Live iPhone export: wipe timeout 60 seconds per app, exact success callbacks, targeted app termination and 128MB daemon memory guard. RootHide iPhone 6s / iOS 15.8.8-15.x; LAN backend 192.168.10.83:8787. New devices automatically request admin-approved enrollment on the A30s account page.
+Description: Automatic Devices catalog on app startup/resume, bounded retry; Live iPhone export: wipe timeout 60 seconds per app, exact success callbacks, targeted app termination and 128MB daemon memory guard. RootHide iPhone 6s / iOS 15.8.8-15.x; LAN backend 192.168.10.83:8787. New devices automatically request admin-approved enrollment on the A30s account page.
 Name: KidsAuto v4 LAN - Wipe 60s Fix (iPhone 6s)
-Conflicts: vn.sonnguyen.kids.bridge-kit
-Filename: debs/vn.sonnguyen.kids.roothide-v4_0.14.2+roothide_iphoneos-arm64e.deb
-Size: 5516482
-MD5sum: f3aaedec52bec0ed3192ebb12536eefc
-SHA1: a3970d67d294076b608b29af10bd76b028810154
-SHA256: 65e1fe6eddaa25705c907d9f990919f6ab747e623c3f0cbace9f09eea61dd0a6
-SHA512: 03304d405e87a890d2d18fdbd01ceb4329c7fca67c76984cf7ec9b362f8c763b8534ff802b92ace1112fbb6b8228d76e0fbb8862251168b09174b47ef9a07f66
+Conflicts: vn.sonnguyen.kids.bridge-kit, vn.sonnguyen.kids.autodevices.prototype
+Filename: debs/vn.sonnguyen.kids.roothide-v4_0.14.3+roothide_iphoneos-arm64e.deb
+Size: 5521718
+MD5sum: 2c2873eb42712902fcab7b1ebca95069
+SHA1: adaa2d8d30e13ae771580e1fc075e0c3607cf9f3
+SHA256: 2c39a49e988331614c5b3413f9b9f3ad7e7570d897a3d931dd45fa9e93071c14
+SHA512: 001b27593b668ce294af8a71e6bfed629bb9edbd84dd30e8d28b743b223958bf8eaeb87443e6bf3bc3434698b7322c3243ab8c44b7a8efc65eafee5f53e780c2
 
 Package: ws.hbang.common
 Name: Cephei Tweak Support
