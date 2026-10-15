@@ -1,1 +1,1 @@
-Prebuilt and validated. See ../README.txt. Upload the complete repo/ directory together. No BridgeKit build required.
+Prebuilt 0.14.2: upload complete repo/ together. Read ../README.txt. No PC configuration required.

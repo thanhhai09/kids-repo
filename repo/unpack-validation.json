@@ -16,9 +16,9 @@
     "darwin_scripts": "syntax_checked_not_executed"
   },
   {
-    "deb": "vn.sonnguyen.kids.roothide-v4_0.14.1+roothide_iphoneos-arm64e.deb",
+    "deb": "vn.sonnguyen.kids.roothide-v4_0.14.2+roothide_iphoneos-arm64e.deb",
     "directories": 7,
-    "files": 36,
+    "files": 38,
     "actual_dpkg_unpack": "passed",
     "file_hashes": "matched",
     "darwin_scripts": "syntax_checked_not_executed"
