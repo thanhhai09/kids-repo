@@ -199,3 +199,18 @@ SHA1: 70a6fe7f4ad528248fc1f137edf8c14d23e54082
 SHA256: fd69a700d66bf44f4e579fb65cc5bdbd86c5dfd6726888639502b251f63b230b
 SHA512: 89a747a98bb81c76064533ba9ee0a0d9b0bfb11a79f23035a1799040631114513450f31fdc0d83ae682a765d3db8473af8acbef94486fd4cc11e78ccf7f5d873
 
+Package: vn.sonnguyen.kids.socks
+Name: SOCKS5CHANGE
+Version: 0.2.4+roothide
+Architecture: iphoneos-arm64e
+Maintainer: Kids Repository
+Section: Utilities
+Depends: roothide, ldid, com.simpzan.jetsamctl, firmware (>= 15.0), firmware (<< 16.0)
+Description: Separate SOCKS4/SOCKS5 TXT lists, random Change IP and selected-app VPN routing. RootHide iOS 15. SOCKS4 TCP-only; SOCKS5 UDP depends on upstream. LAN routes remain available for device control.
+Filename: debs/SOCKS5CHANGE-0.2.4-roothide.deb
+Size: 392502
+MD5sum: ef00f8438adf8d2655a17bd93b63541c
+SHA1: e2db258e8643eaa4e0a467493a3929629e4325fe
+SHA256: 4391265ad2c61c03d62a06efee199574df0f055c385d6c12a793bb32b1380b26
+SHA512: 5070bb7a831926a85886cc2205cd06f6e6c13dfa8b409c16ee7411f87a644f987e89a4beaca7fa03e54da3dd5346882630e98d825a18d6aa5083d9734e2f64cf
+
