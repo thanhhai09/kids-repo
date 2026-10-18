@@ -161,23 +161,6 @@ SHA1: d232922d88a46ee8bf70af7fb7d036a4736ebd5b
 SHA256: 2713b727e8d14c553e6d39a3ef10f967073240f995d40a471026f36dc50c0fea
 SHA512: 3aea7f2dee176d33fc584bc4710ded3ee6f57e26dfd41bde1b6492381e0c656bde768109651459e61929656926fef7b407fc640cce516443d459553e81cdadfb
 
-Package: vn.sonnguyen.kids.roothide-v4
-Section: Utilities
-Installed-Size: 16676
-Maintainer: Kids Repository
-Architecture: iphoneos-arm64e
-Version: 0.14.3+roothide
-Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.8.8), firmware (<< 16.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
-Description: Automatic Devices catalog on app startup/resume, bounded retry; Live iPhone export: wipe timeout 60 seconds per app, exact success callbacks, targeted app termination and 128MB daemon memory guard. RootHide iPhone 6s / iOS 15.8.8-15.x; LAN backend 192.168.10.83:8787. New devices automatically request admin-approved enrollment on the A30s account page.
-Name: KidsAuto v4 LAN - Wipe 60s Fix (iPhone 6s)
-Conflicts: vn.sonnguyen.kids.bridge-kit, vn.sonnguyen.kids.autodevices.prototype
-Filename: debs/vn.sonnguyen.kids.roothide-v4_0.14.3+roothide_iphoneos-arm64e.deb
-Size: 5521718
-MD5sum: 2c2873eb42712902fcab7b1ebca95069
-SHA1: adaa2d8d30e13ae771580e1fc075e0c3607cf9f3
-SHA256: 2c39a49e988331614c5b3413f9b9f3ad7e7570d897a3d931dd45fa9e93071c14
-SHA512: 001b27593b668ce294af8a71e6bfed629bb9edbd84dd30e8d28b743b223958bf8eaeb87443e6bf3bc3434698b7322c3243ab8c44b7a8efc65eafee5f53e780c2
-
 Package: ws.hbang.common
 Name: Cephei Tweak Support
 Depends: firmware (>= 15.0)
@@ -199,19 +182,35 @@ SHA1: 70a6fe7f4ad528248fc1f137edf8c14d23e54082
 SHA256: fd69a700d66bf44f4e579fb65cc5bdbd86c5dfd6726888639502b251f63b230b
 SHA512: 89a747a98bb81c76064533ba9ee0a0d9b0bfb11a79f23035a1799040631114513450f31fdc0d83ae682a765d3db8473af8acbef94486fd4cc11e78ccf7f5d873
 
+Package: vn.sonnguyen.kids.roothide-v4
+Section: Utilities
+Maintainer: Kids Repository
+Architecture: iphoneos-arm64e
+Version: 0.14.6+roothide
+Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.8.8), firmware (<< 16.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
+Description: Verified iOS Fake completion, current IP region, compatible model/iOS selection, storage constraints, identifiers, safe Settings display and native Manager session recovery. Requires the existing A30s backend.
+Name: KidsAuto v4 LAN - Latest iOS Fix
+Conflicts: vn.sonnguyen.kids.bridge-kit, vn.sonnguyen.kids.autodevices.prototype
+Filename: debs/KidsAuto-v4-0.14.6-roothide.deb
+Size: 5611450
+MD5sum: 9bc72d7385b07b5e82eb69d27bb08c28
+SHA1: 0c6040a9f4822822c0eef5514952eb59a5e056e8
+SHA256: 6f3c6188d37e1b1f26822c264430267ac93f0b90c3493c18738556b6271c9c19
+SHA512: 272a17904f075fe2c137ebf6f021f4584e86f55b9333073996a26c1275e073df6b3dd85740067332a8ac2883c616eec9487aa2c50f3178dc85bdf96e63139be7
+
 Package: vn.sonnguyen.kids.socks
 Name: SOCKS5CHANGE
-Version: 0.2.6+roothide
+Version: 0.2.8+roothide
 Architecture: iphoneos-arm64e
 Maintainer: Kids Repository
 Section: Utilities
 Icon: https://thanhhai09.github.io/kids-repo/repo/icons/socks5change.png
-Depends: roothide, ldid, com.simpzan.jetsamctl, firmware (>= 15.0), firmware (<< 16.0)
+Depends: roothide, ldid, openssh-client (>= 8.4), com.simpzan.jetsamctl, firmware (>= 15.0), firmware (<< 16.0)
 Description: Separate SOCKS4/SOCKS5 TXT lists, random Change IP and selected-app VPN routing. RootHide iOS 15. SOCKS4 TCP-only; SOCKS5 UDP depends on upstream. LAN routes remain available for device control.
-Filename: debs/SOCKS5CHANGE-0.2.6-roothide.deb
-Size: 431000
-MD5sum: 691dc0031d365f1fd01c8ca141b3c7ca
-SHA1: 61bf165c28e402ba9f7a37b6a2668e0dce96b8a3
-SHA256: 7205190932fff2ffa4a5274b4b50c3189dbee1064ba67570976a86465650e244
-SHA512: 2f61a81522c8247206bd61f8c64dffa1a64fa4019120799a261643e4e4016ae371c3b9ec8e665f8ab9e82709a52a150c005a7e9fc9a6744b4c12073a7d13e6e0
+Filename: debs/SOCKS5CHANGE-0.2.8-roothide.deb
+Size: 481718
+MD5sum: e3fdeec1bab435439a2ec68ac21e7ff3
+SHA1: 46df21fc9f4de439e7a61a00d6cdcea58fb47de4
+SHA256: a0499e8674584f8a1c41e617fb6fb1b1b6eaf9a23adc58aa59900eab5549f26d
+SHA512: d2d75300dbcc72db124f02ad150b367b11e203670533ba22506228d91e95872283c15c511e3343e8012ce7d540dbf2d31e3d5994ed6a729aa74b73189a99d7e5
 
