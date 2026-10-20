@@ -9,14 +9,18 @@ agent = None
 pending = {}
 EXACT = {'/api/login', '/api/devicev2', '/api/devices/add', '/api/fakeinfo',
          '/api/fake-selection', '/api/refresh_token', '/api/refresh-token',
-         '/api/me', '/api/validateinfo', '/api/firmware-catalog'}
+         '/api/me', '/api/validateinfo', '/api/firmware-catalog', '/api/proxy-feed/socks5'}
+ADMIN = {'/admin','/admin/','/admin/api/login','/admin/api/state',
+         '/admin/api/users','/admin/api/user-password','/admin/api/user-enabled',
+         '/admin/api/grants','/admin/api/enrollment-approve',
+         '/admin/api/grant-disable','/admin/api/logout'}
 
 def allowed(path):
-    return path in EXACT or path.startswith('/api/ip-region/') or path.startswith('/api/enrollment/') or path.startswith('/api/device/')
+    return path in EXACT or path in ADMIN or path.startswith('/api/ip-region/') or path.startswith('/api/enrollment/') or path.startswith('/api/device/')
 
 async def tunnel(request):
     global agent
-    if not hmac.compare_digest(request.headers.get('X-A30-Key', ''), KEY):
+    if not hmac.compare_digest(request.headers.get('X-A30-Key', '').encode(), KEY.encode()):
         raise web.HTTPUnauthorized()
     ws = web.WebSocketResponse(max_msg_size=8*1024*1024, heartbeat=30)
     await ws.prepare(request)
@@ -46,6 +50,8 @@ async def health(request):
     return web.json_response({'ok': True, 'backend_connected': agent is not None and not agent.closed}, headers={'Cache-Control':'no-store'})
 
 async def proxy(request):
+    if request.method=='GET' and request.path=='/':
+        raise web.HTTPFound('/admin')
     if request.method not in ('GET','POST') or not allowed(request.path):
         raise web.HTTPNotFound()
     current = agent
@@ -57,7 +63,7 @@ async def proxy(request):
     identity = secrets.token_hex(16)
     future = asyncio.get_running_loop().create_future()
     pending[identity] = (current, future)
-    headers = {k:v for k,v in request.headers.items() if k.lower() in ('authorization','content-type','accept')}
+    headers = {k:v for k,v in request.headers.items() if k.lower() in ('authorization','content-type','accept','cookie','x-csrf-token')}
     try:
         await current.send_json({'id':identity,'method':request.method,'path':request.raw_path,'headers':headers,'body':base64.b64encode(body).decode()})
         answer = await asyncio.wait_for(future, 100)
@@ -65,7 +71,10 @@ async def proxy(request):
         status = int(answer.get('status',502))
         if status < 100 or status > 599:
             raise ValueError('invalid status')
-        response_headers = {k:v for k,v in answer.get('headers',{}).items() if k.lower() in ('content-type','content-encoding','cache-control','retry-after')}
+        response_headers = {k:v for k,v in answer.get('headers',{}).items() if k.lower() in ('content-type','content-encoding','cache-control','retry-after','set-cookie','content-security-policy','x-frame-options','x-content-type-options')}
+        for name,value in list(response_headers.items()):
+            if name.lower()=='set-cookie' and value.startswith('kids_admin=') and not any(piece.strip().lower()=='secure' for piece in value.split(';')):
+                response_headers[name]=value+'; Secure'
         response_headers['Cache-Control'] = 'no-store'
         return web.Response(status=status, body=payload, headers=response_headers)
     except (asyncio.TimeoutError, ConnectionError, ValueError, TypeError):
