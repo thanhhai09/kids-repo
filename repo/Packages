@@ -182,22 +182,6 @@ SHA1: 70a6fe7f4ad528248fc1f137edf8c14d23e54082
 SHA256: fd69a700d66bf44f4e579fb65cc5bdbd86c5dfd6726888639502b251f63b230b
 SHA512: 89a747a98bb81c76064533ba9ee0a0d9b0bfb11a79f23035a1799040631114513450f31fdc0d83ae682a765d3db8473af8acbef94486fd4cc11e78ccf7f5d873
 
-Package: vn.sonnguyen.kids.roothide-v4
-Section: Utilities
-Maintainer: Kids Repository
-Architecture: iphoneos-arm64e
-Version: 0.14.6+roothide
-Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.8.8), firmware (<< 16.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
-Description: Verified iOS Fake completion, current IP region, compatible model/iOS selection, storage constraints, identifiers, safe Settings display and native Manager session recovery. Requires the existing A30s backend.
-Name: KidsAuto v4 LAN - Latest iOS Fix
-Conflicts: vn.sonnguyen.kids.bridge-kit, vn.sonnguyen.kids.autodevices.prototype
-Filename: debs/KidsAuto-v4-0.14.6-roothide.deb
-Size: 5611450
-MD5sum: 9bc72d7385b07b5e82eb69d27bb08c28
-SHA1: 0c6040a9f4822822c0eef5514952eb59a5e056e8
-SHA256: 6f3c6188d37e1b1f26822c264430267ac93f0b90c3493c18738556b6271c9c19
-SHA512: 272a17904f075fe2c137ebf6f021f4584e86f55b9333073996a26c1275e073df6b3dd85740067332a8ac2883c616eec9487aa2c50f3178dc85bdf96e63139be7
-
 Package: vn.sonnguyen.kids.socks
 Name: SOCKS5CHANGE
 Version: 0.2.8+roothide
@@ -213,4 +197,20 @@ MD5sum: e3fdeec1bab435439a2ec68ac21e7ff3
 SHA1: 46df21fc9f4de439e7a61a00d6cdcea58fb47de4
 SHA256: a0499e8674584f8a1c41e617fb6fb1b1b6eaf9a23adc58aa59900eab5549f26d
 SHA512: d2d75300dbcc72db124f02ad150b367b11e203670533ba22506228d91e95872283c15c511e3343e8012ce7d540dbf2d31e3d5994ed6a729aa74b73189a99d7e5
+
+Package: vn.sonnguyen.kids.roothide-v4
+Section: Utilities
+Maintainer: Kids Repository
+Architecture: iphoneos-arm64e
+Version: 0.14.7+roothide
+Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.8.8), firmware (<< 16.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
+Description: Fresh/reset installation status and recovery diagnostics, required-runtime validation and explicit device enrollment readiness. Includes the verified iOS Fake/IP, compatible model/iOS, identifiers and safe Settings fixes. Account passwords and existing device grants are preserved.
+Name: KidsAuto v4 LAN - Fresh Install Recovery
+Conflicts: vn.sonnguyen.kids.bridge-kit, vn.sonnguyen.kids.autodevices.prototype
+Filename: debs/KidsAuto-v4-0.14.7-roothide.deb
+Size: 5611934
+MD5sum: 9fecc5a18b5c8013ed39906167f80a02
+SHA1: c22e8eaf12cf8d97d12f937c00f6dade4a960277
+SHA256: 1391b16c79c9baafbbe323cf9efc420d7784f56bcdcad7b7ce90e9280521f630
+SHA512: f8c45f6a301742c6c3031cf217661b208e382443dd12347395e61c78642c5574f04e4aeedc9f241931b98a5bdc88a87621d759056583d843290f3f6ce858154a
 
