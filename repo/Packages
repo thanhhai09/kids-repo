@@ -202,15 +202,15 @@ Package: vn.sonnguyen.kids.roothide-v4
 Section: Utilities
 Maintainer: Kids Repository
 Architecture: iphoneos-arm64e
-Version: 0.14.14+roothide
+Version: 0.14.15+roothide
 Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
-Description: Applies selected-app tweak filters on fresh installations without requiring a Settings recovery backup. Keeps Settings scoped safely and retains direct IP, HTTPS, serial and firmware fixes.
-Name: KidsAuto v4 - Selected App Scope Fix
+Description: Reports selected fake OS through UIDevice and NSProcessInfo in selected apps, preserving native runtime capability checks. Includes serial, scope, direct IP and HTTPS fixes. Requires tweak injection; does not bypass application root checks.
+Name: KidsAuto v4 - Reported iOS API Fix
 Conflicts: vn.sonnguyen.kids.bridge-kit, vn.sonnguyen.kids.autodevices.prototype
-Filename: debs/KidsAuto-v4-0.14.14-roothide.deb
-Size: 5617136
-MD5sum: 9494b728bd0e0fb9d63343ac20214388
-SHA1: d335e09185aed45e1e89cc16a5ec55f9d2b7e480
-SHA256: 62731a104d197af3f7ac36a32286ef6ff4cc60b7462f7fb52878daf0c0c016fd
-SHA512: a0dac51be1601b80d9cd81d65d1fa5780c5e83ce3b69e7482edc3bb0fe23ceee207c8530184d48cd057111aed971230025576d652acf94565c707635d34707dc
+Filename: debs/KidsAuto-v4-0.14.15-roothide.deb
+Size: 5617160
+MD5sum: 8474a013eb143fca3a2f5aa0a120959c
+SHA1: 4bb2a945fdd8903eb1318df4a0c74c843bc8466a
+SHA256: ae2c55f66397e3b4f62d54363b4afdbc6032cef15d19e9dc2152b4492653120d
+SHA512: b1966aab47afb02b8fea69e96de56afef42be31cf4a62a111365e9b950835fa2614cf3c76300e1972d0e64c6d5db370593784e5a607482fea5bd079e3c48cc35
 
