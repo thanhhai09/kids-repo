@@ -202,15 +202,15 @@ Package: vn.sonnguyen.kids.roothide-v4
 Section: Utilities
 Maintainer: Kids Repository
 Architecture: iphoneos-arm64e
-Version: 0.14.7+roothide
+Version: 0.14.8+roothide
 Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.8.8), firmware (<< 16.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
-Description: Fresh/reset installation status and recovery diagnostics, required-runtime validation and explicit device enrollment readiness. Includes the verified iOS Fake/IP, compatible model/iOS, identifiers and safe Settings fixes. Account passwords and existing device grants are preserved.
-Name: KidsAuto v4 LAN - Fresh Install Recovery
+Description: Removes the iPhone 6s-only installer restriction. Requires the declared RootHide firmware and dependencies; additional physical models are not yet device-tested. Preserves native payload validation, fresh-install recovery and existing account enrollment.
+Name: KidsAuto v4 LAN - Multiple iPhone Models
 Conflicts: vn.sonnguyen.kids.bridge-kit, vn.sonnguyen.kids.autodevices.prototype
-Filename: debs/KidsAuto-v4-0.14.7-roothide.deb
-Size: 5611934
-MD5sum: 9fecc5a18b5c8013ed39906167f80a02
-SHA1: c22e8eaf12cf8d97d12f937c00f6dade4a960277
-SHA256: 1391b16c79c9baafbbe323cf9efc420d7784f56bcdcad7b7ce90e9280521f630
-SHA512: f8c45f6a301742c6c3031cf217661b208e382443dd12347395e61c78642c5574f04e4aeedc9f241931b98a5bdc88a87621d759056583d843290f3f6ce858154a
+Filename: debs/KidsAuto-v4-0.14.8-roothide.deb
+Size: 5611832
+MD5sum: 1e3e4800c803e3ead8d9e1be9d424c96
+SHA1: 1ce4ed00b8c5d3bcf7c60ee83bbddac85922b0dd
+SHA256: 0c3d72a899f1c651957765779bd5df9b0b6bd2491063b8442e61a3e867ac6d65
+SHA512: 2829a3bb5665a63ff8755cdfe82fd7e0dc43d6300e77acf49e77396324380c0492dbcfeb510756244c3815710f0a74a8c0d7ee02f4eeb3d203d900a9753d2559
 
