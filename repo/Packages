@@ -202,15 +202,15 @@ Package: vn.sonnguyen.kids.roothide-v4
 Section: Utilities
 Maintainer: Kids Repository
 Architecture: iphoneos-arm64e
-Version: 0.14.12+roothide
+Version: 0.14.13+roothide
 Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
-Description: Connects the existing A30s backend over HTTPS outside the local network, with longer remote request budgets. Preserves serial display, backup and open firmware fixes. Requires the configured A30s gateway online.
-Name: KidsAuto v4 - A30s HTTPS Gateway
+Description: Reads the current iPhone network IP directly without the SOCKS5CHANGE service. Includes cellular and IPv6 capable redundant HTTPS probes, A30s HTTPS routing, iOS16 serial and open firmware fixes.
+Name: KidsAuto v4 - Direct Network IP Fix
 Conflicts: vn.sonnguyen.kids.bridge-kit, vn.sonnguyen.kids.autodevices.prototype
-Filename: debs/KidsAuto-v4-0.14.12-roothide.deb
-Size: 5615896
-MD5sum: 73430b365bd9fe79eb2eed07f4704743
-SHA1: b5eb460865b004a4a779317602e739ab4e123608
-SHA256: 78f02a191bda1aa13fbd3f4718e0dc3204b3e1659fbf33a946a6bf1d4e289f5a
-SHA512: dcb62a389bf03f559f20925741d57b251f13bb88ed163910d56edc3e02d117bc92fd7bed5db0af9afde1b5a2dd7e730d9c46e294bac33e5e14969b69946d58ed
+Filename: debs/KidsAuto-v4-0.14.13-roothide.deb
+Size: 5616886
+MD5sum: b545661bc86610b0a19ea76a9c2defac
+SHA1: e00936fdbcb0f31048cfc32b277f55d0b29945fc
+SHA256: 7fc03c4a6bce932b58584b6fdc60e163d4c75570515bdde385486a23a6d6af42
+SHA512: d20a3e0ce7d9004261e4dc2af77633f5393d1b35733574d9e1e002fbc985d5e3bf98995b1743263b4fdd2575f1e1ad3e118072daa2222711ea9ba9a8d05196cb
 
