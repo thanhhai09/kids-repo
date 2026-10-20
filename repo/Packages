@@ -186,17 +186,17 @@ Package: vn.sonnguyen.kids.roothide-v4
 Section: Utilities
 Maintainer: Kids Repository
 Architecture: iphoneos-arm64e
-Version: 0.14.10+roothide
+Version: 0.14.11+roothide
 Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
-Description: Includes backup timeout fix, multiple-model installer and fresh-install recovery. Removes the firmware upper bound for testing on other RootHide devices. Requires RootHide and existing dependencies. Operation on newer iOS is unverified.
-Name: KidsAuto v4 LAN - Backup Timeout Fix
+Description: Publishes the applied fake SerialNumber to selected apps and the Settings About serial row, preserving real Settings system capabilities. Includes backup timeout and open firmware metadata. iOS 16 device validation pending.
+Name: KidsAuto v4 LAN - Serial Display Fix
 Conflicts: vn.sonnguyen.kids.bridge-kit, vn.sonnguyen.kids.autodevices.prototype
-Filename: debs/KidsAuto-v4-0.14.10-roothide.deb
-Size: 5612506
-MD5sum: 9a585ae04ee8eecfef718b4d229ac500
-SHA1: 52b2f60244557badb0c357b0f564dd9cf5a49463
-SHA256: 1cb0f1700530256cc6bb4ba32ccb7a7d2e1d4efadcf227179e27fb4e1ea9c842
-SHA512: 333915852a5a909189e6b3c0ed3d8250ddba45ab076bbb252d351b510f054896f4b1f6a360e0b4e6c881745cedde718f101af6fa06d219466d4e547da8e44806
+Filename: debs/KidsAuto-v4-0.14.11-roothide.deb
+Size: 5610538
+MD5sum: d9a9bb8be00385c1ae7c18f2eb98f45a
+SHA1: 4417e006e9909f5f732bdc5e86fa56f71709e407
+SHA256: 39eb48e40792105ec95ff9f4e9065103ac940d392fbf783e229f3f0a9c3762da
+SHA512: 67759ce1a8931f86fdc15687b1264c39f402c0dddcff94e0d909a9dcb197c64239cc008760972d891cf2317588765836dc856a4e08ee50135383c9b058ef9c82
 
 Package: vn.sonnguyen.kids.socks
 Name: SOCKS5CHANGE
