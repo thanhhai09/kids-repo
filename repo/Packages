@@ -202,15 +202,15 @@ Package: vn.sonnguyen.kids.roothide-v4
 Section: Utilities
 Maintainer: Kids Repository
 Architecture: iphoneos-arm64e
-Version: 0.14.19+roothide
+Version: 0.14.20+roothide
 Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
-Description: Full retail part numbers with market suffix from matching model/capacity catalog; batch wipe and backup budget180 seconds per app. Retains English names, selected-app refresh, serial, HTTPS, IP and RRS fixes. Requires matching A30s retail catalog update.
-Name: KidsAuto v4 - Retail Part and Batch Wipe
+Description: Stops selected app processes before and after native scoped wipe, verifies cache cleanup, and saves new per-app virtual IDFV/IDFA after success. IDFA respects tracking authorization. Retains retail part numbers, English names, IP, serial and batch/RRS fixes.
+Name: KidsAuto v4 - Complete App Wipe Flow
 Conflicts: vn.sonnguyen.kids.bridge-kit, vn.sonnguyen.kids.autodevices.prototype
-Filename: debs/KidsAuto-v4-0.14.19-roothide.deb
-Size: 5621458
-MD5sum: 15f14ef5f3d5edfcafd562160cf23a42
-SHA1: aa7763278e7082b435331cc458d94d10ef4f9e3e
-SHA256: 530cce47b402b5154545e9ce84a7fa8e4ea87e04e4bf349d9aec7d68fbda5ad1
-SHA512: 228747c87d72f0e4618a75a22477af78a3713722a122103d9f829db4d7a388003cba9e2ce7fce22c6f619836bf78250ce8c90600083f5e61d3c2556ff035eb8b
+Filename: debs/KidsAuto-v4-0.14.20-roothide.deb
+Size: 5639862
+MD5sum: f7f78c650a5b6ff7008cc3d9f4fda230
+SHA1: ca3af6c8462b6eff5fa34069abd447f96addacb4
+SHA256: 317f24d711832d7cba083480b36a0254ef45f101461c38bb6c12321973e79a5a
+SHA512: 0c270514e0e2b7623bd7bbc5998532a473372e8fc97432883583916067112b9362ee18d005290d320d1567634908e444dc00f601bb4770e041e22e13e7b22e6b
 
