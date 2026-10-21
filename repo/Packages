@@ -202,15 +202,31 @@ Package: vn.sonnguyen.kids.roothide-v4
 Section: Utilities
 Maintainer: Kids Repository
 Architecture: iphoneos-arm64e
-Version: 0.14.21+roothide
+Version: 0.14.22+roothide
 Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
-Description: Synchronizes Settings iOS version detail text and build with the selected profile. Preserves scoped wipe, RRS identity restoration, retail part numbers, serial and IP fixes.
-Name: KidsAuto v4 - Settings Version Details
+Description: Uses existing enrolled-device authentication for activation instead of the empty legacy license list. Retains server account, signature, physical serial grant and expiry checks. Preserves previous Fake, Settings and wipe/RRS fixes.
+Name: KidsAuto v4 - Enrollment Activation Fix
 Conflicts: vn.sonnguyen.kids.bridge-kit, vn.sonnguyen.kids.autodevices.prototype
-Filename: debs/KidsAuto-v4-0.14.21-roothide.deb
-Size: 5640716
-MD5sum: 5c504d6fff450decf5d4af32277e20bf
-SHA1: bcae3c3fe036d2ab5efc27c5fc8b055f8abba1b8
-SHA256: 348ac4f79b9966c745b8b80b5ddf30e67cb9073d36e374351b19062ec1edcc2c
-SHA512: 6f629ee9ba172c8a3139078680a94f2ef147723beadd6c0a919e06ded38a31f0e32935d36ad58f17881e03b163455ea927379837b2ae8e0da2ded5703d3f3a01
+Filename: debs/KidsAuto-v4-0.14.22-roothide.deb
+Size: 5640684
+MD5sum: e341638d045c77ec61c358815014df9f
+SHA1: 57b6f63b643fd71feff083ffbc691ad69f207025
+SHA256: f4b0926b8b865139b8048266c30592a3121b9a00e5ff37adb4b2e17dd10d2a02
+SHA512: 428a28c7929aceaf232b0daf4301b41377fabd533c26b066175360120a0e7158c0d1057491d456109c60219f319174808d1dbee4f28eda40eaef6dfd6024c5a5
+
+Package: com.deviceaudit.iosaudit
+Name: Device Audit
+Version: 0.2.3
+Architecture: iphoneos-arm64e
+Maintainer: Device Audit Toolkit
+Section: Utilities
+Priority: optional
+Depends: firmware (>= 15.0), roothide, ldid, com.simpzan.jetsamctl
+Description: Read-only device audit app with UIDevice, MobileGestalt, sysctl, kernel, plist and IORegistry views, snapshots and comparison. Includes CLI.
+Filename: debs/ios-device-audit_0.2.3_iphoneos-arm64e.deb
+Size: 43272
+MD5sum: 57a3b3e2c96d909ee0ea935a97023432
+SHA1: e7124d4318b1da013807b61f08fe65f62183d281
+SHA256: f9505235310b3d66d0cd48032d3e58aaa0bb011193a7a15af8908246a5aac250
+SHA512: 3408e60ac29845eb2c8a7ad884457e8eb401bd3492e94d6f63d23dc8232f84285f7b46275764eb5c2e91922f5e4c66a900bd4caa34922612f7580520f48505ea
 
