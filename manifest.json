@@ -67,9 +67,9 @@
   },
   {
     "package": "vn.sonnguyen.kids.roothide-v4",
-    "version": "0.14.24+roothide",
-    "filename": "debs/KidsAuto-v4-0.14.24-roothide.deb",
-    "sha256": "64b5ff07818aadadf9c323e266caa5ffdbf7527d4074a2e59ed924ede02acf30"
+    "version": "0.14.25+roothide",
+    "filename": "debs/KidsAuto-v4-0.14.25-roothide.deb",
+    "sha256": "0a5449a035fce072f3d5b5dfdc9f22817e052b720a94ca1e96b366a20b4e8b07"
   },
   {
     "package": "com.deviceaudit.iosaudit",

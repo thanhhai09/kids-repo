@@ -203,17 +203,17 @@ Package: vn.sonnguyen.kids.roothide-v4
 Section: Utilities
 Maintainer: Hai Vo
 Architecture: iphoneos-arm64e
-Version: 0.14.24+roothide
+Version: 0.14.25+roothide
 Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
 Description: Rebuild by Hai Vo. Tu dong dong bo danh muc thiet bi va phien dang nhap khi mo tool. Kiem tra xung dot cau hinh ung dung truoc khi Fake.
 Name: KidsAuto v4
 Conflicts: vn.sonnguyen.kids.bridge-kit, vn.sonnguyen.kids.autodevices.prototype
-Filename: debs/KidsAuto-v4-0.14.24-roothide.deb
-Size: 5641492
-MD5sum: 2e524c83b33e017d862b6dcc0f8c3486
-SHA1: 2defa963b39e9f0273230fa96eb36bbb4bd37b1a
-SHA256: 64b5ff07818aadadf9c323e266caa5ffdbf7527d4074a2e59ed924ede02acf30
-SHA512: 6f13e8ce5eaca1ba7465fb2a8564abab61f03d8355c6bfade15864a07a36e8e1a0b176567e936de61cfb56be881d6d69440ea8af09300d1eae26495a92bc3a42
+Filename: debs/KidsAuto-v4-0.14.25-roothide.deb
+Size: 5643994
+MD5sum: d294cc4ab227faa099fafcf7537bf36a
+SHA1: 4bed7af3263820e2617b22d20eba23c48a005211
+SHA256: 0a5449a035fce072f3d5b5dfdc9f22817e052b720a94ca1e96b366a20b4e8b07
+SHA512: 22aad1186c3df5d6d11dde7d52e6fe6a5c608d9818dfe19fd4184625e0196b1abff9e254944eae46786aaf80880ca944447797247e144ee486a7457386464ee3
 Author: Hai Vo
 Icon: https://thanhhai09.github.io/kids-repo/repo/CydiaIcon.png
 
