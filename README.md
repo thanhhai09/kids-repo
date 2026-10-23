@@ -2,7 +2,7 @@
 
 Nguồn Sileo dành cho RootHide: https://thanhhai09.github.io/kids-repo/repo/
 
-- KidsAuto v4 0.14.25 — Rebuild by Hai Vo.
+- KidsAuto v4 0.14.26 — Rebuild by Hai Vo.
 - SOCKS5CHANGE 0.2.9 — Được phát triển bởi Hai Vo.
 - Device Audit 0.2.3 — Được phát triển bởi Hai Vo.
 
