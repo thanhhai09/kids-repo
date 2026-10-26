@@ -199,24 +199,6 @@ SHA256: d8150115782b35bc78f8b656d412514eab73f90cdd98095852bcc2fbc609e6f3
 SHA512: e6d68b82cec54b1c32f5b4947b804685d8d9f5e123871188a3873c9551c4f21c5dd45905d95e3ac183fad7e3e549ebebd0cecb5b5fc92eb5853c5c3670a42fd2
 Author: Hai Vo
 
-Package: vn.sonnguyen.kids.roothide-v4
-Section: Utilities
-Maintainer: Hai Vo
-Architecture: iphoneos-arm64e
-Version: 0.14.26+roothide
-Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
-Description: Rebuild by Hai Vo. Tu dong dong bo danh muc thiet bi va phien dang nhap khi mo tool. Kiem tra xung dot cau hinh ung dung truoc khi Fake.
-Name: KidsAuto v4
-Conflicts: vn.sonnguyen.kids.bridge-kit, vn.sonnguyen.kids.autodevices.prototype
-Filename: debs/KidsAuto-v4-0.14.26-roothide.deb
-Size: 5644514
-MD5sum: d1e9737ffbf8b5586fdf879922d4019f
-SHA1: c997d2b5289b36cd0ec1ee770f2012b8764da6e1
-SHA256: 0bbf113cb0f1d0ff368a6851f6cd34e755357ad141920ebaa7c150a2fb435318
-SHA512: 998540bdba4501ec6bd9e018cbb1247e01d5cf65e37e8051b2e98abfc45a6631283965458e9d2a96a0033e089ee9197647e9ee1c2062079586542dbb44b14a40
-Author: Hai Vo
-Icon: https://thanhhai09.github.io/kids-repo/repo/CydiaIcon.png
-
 Package: com.deviceaudit.iosaudit
 Name: Device Audit
 Version: 0.2.3
@@ -233,4 +215,20 @@ SHA1: e7124d4318b1da013807b61f08fe65f62183d281
 SHA256: f9505235310b3d66d0cd48032d3e58aaa0bb011193a7a15af8908246a5aac250
 SHA512: 3408e60ac29845eb2c8a7ad884457e8eb401bd3492e94d6f63d23dc8232f84285f7b46275764eb5c2e91922f5e4c66a900bd4caa34922612f7580520f48505ea
 Author: Hai Vo
+
+Package: vn.sonnguyen.kids.roothide-v4
+Section: Utilities
+Maintainer: Hai Vo
+Architecture: iphoneos-arm64e
+Version: 0.14.28+roothide
+Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
+Description: Rebuild by Hai Vo. Management connections use autochangeinfor.new.tg over HTTPS. Includes existing RRS test23 fixes.
+Name: KidsAuto v4 - Hai Vo
+Conflicts: vn.sonnguyen.kids.bridge-kit, vn.sonnguyen.kids.autodevices.prototype
+Filename: debs/KidsAuto-v4-0.14.28-aws-roothide.deb
+Size: 5690802
+MD5sum: 8e282315df0251af6db29f4df5e339d5
+SHA1: cfe9b77ed769915fffe01030a4bd2a049706f927
+SHA256: 71184c61fd1b86cbcd3b2f49644b759b4b6291d86f7731d7dafd27249e6b7752
+SHA512: c9a0ed2b0a04893abb0d3121b4a307c95189072b16c4be0e3708ea42b006e3ec430c8bc0ce3c97d5f767d3f1e6fcb249c4813237b1a21afcc0e97be7a2174dd5
 
