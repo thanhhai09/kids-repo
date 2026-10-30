@@ -220,15 +220,15 @@ Package: vn.sonnguyen.kids.roothide-v4
 Section: Utilities
 Maintainer: Hai Vo
 Architecture: iphoneos-arm64e
-Version: 0.14.28+roothide
+Version: 0.14.31+roothide
 Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
-Description: Rebuild by Hai Vo. Management connections use autochangeinfor.new.tg over HTTPS. Includes existing RRS test23 fixes.
+Description: Rebuild by Hai Vo. Selected app external stores, Safari browsing state cleanup, and corresponding RRS file backup/restore verification. HTTPS autochangeinfor.new.tg.
 Name: KidsAuto v4 - Hai Vo
 Conflicts: vn.sonnguyen.kids.bridge-kit, vn.sonnguyen.kids.autodevices.prototype
-Filename: debs/KidsAuto-v4-0.14.28-aws-roothide.deb
-Size: 5690802
-MD5sum: 8e282315df0251af6db29f4df5e339d5
-SHA1: cfe9b77ed769915fffe01030a4bd2a049706f927
-SHA256: 71184c61fd1b86cbcd3b2f49644b759b4b6291d86f7731d7dafd27249e6b7752
-SHA512: c9a0ed2b0a04893abb0d3121b4a307c95189072b16c4be0e3708ea42b006e3ec430c8bc0ce3c97d5f767d3f1e6fcb249c4813237b1a21afcc0e97be7a2174dd5
+Filename: debs/KidsAuto-v4-0.14.31-stores-roothide.deb
+Size: 5696300
+MD5sum: ad6d5c551a035f820c4280e2660208c5
+SHA1: 3637eb5abb9b94fdefb039bdaab5142b718379e5
+SHA256: 66fda78f5ed480541d90113aa6626ad43dcd8580e385143b340db34b5368011f
+SHA512: 8d88730e1855bae87fb8bf0d79fd0dbad2d3bfe30e1b09a189b074de475675fe0e8d1f88a5f2dbb61f9aa7d6067417c638b002b3de18d0ecf0f749b7b2314e0d
 
