@@ -184,19 +184,19 @@ SHA512: 89a747a98bb81c76064533ba9ee0a0d9b0bfb11a79f23035a1799040631114513450f31f
 
 Package: vn.sonnguyen.kids.socks
 Name: SOCKS5CHANGE
-Version: 0.2.10~test5+roothide
+Version: 0.2.11+roothide
 Architecture: iphoneos-arm64e
 Maintainer: Kids Repository
 Section: Utilities
 Icon: https://thanhhai09.github.io/kids-repo/repo/icons/socks5change.png
-Depends: roothide, ldid, openssh-client (>= 8.4), com.simpzan.jetsamctl, firmware (>= 15.0)
-Description: Includes explicit Disconnect routing fix. Removes the firmware upper bound for testing on other RootHide devices. Requires RootHide and existing dependencies. Operation on newer iOS is unverified.
-Filename: debs/SOCKS5CHANGE-0.2.10-roothide.deb
-Size: 483728
-MD5sum: 84f1604ecad06ed26e272e090418a5fe
-SHA1: 00ffc00495fe7d6a9d8662e9e026fdc314378211
-SHA256: 00d64920960c3345c0481cacc6d0bf472a7718a9eef711ad28beb04c63fa8277
-SHA512: 471c092b7470d99adc77911eb08ca4ef4f301ffa517b486e65a7c7ff20e574790b582efcfc9f4ff5c225902a5c57d0482dd949243ddea75b4f87eb4f0856c722
+Depends: roothide, ldid, openssh-client (>= 8.4), com.simpzan.jetsamctl, firmware (>= 15.0), curl
+Description: SOCKS4, SOCKS5 and SSH per-app proxy. Verified HTTPS checks with curl, accurate VPN state, and failed-connection cleanup. RootHide required.
+Filename: debs/SOCKS5CHANGE-0.2.11-roothide.deb
+Size: 487946
+MD5sum: 8ba339e3453e8cfd41e3ae472afe04f1
+SHA1: 70c1f725b66a0956e2cd0e8557f6fc86f1878f95
+SHA256: f80357da7ebf2b55e56b06ca02e06e5b8581a470c2a22297d080677c5df2598f
+SHA512: db7ea4547de3d0b90c14f6f24ae284c44476b1b77e1cb0b5e5e0d34e3b3dacdadf8a2d84f8fc2f9d2369e49debfeb21cca8c7e3ca8cef4e7f5e1bed7c91356fc
 
 Package: com.deviceaudit.iosaudit
 Name: Device Audit
