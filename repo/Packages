@@ -184,19 +184,19 @@ SHA512: 89a747a98bb81c76064533ba9ee0a0d9b0bfb11a79f23035a1799040631114513450f31f
 
 Package: vn.sonnguyen.kids.socks
 Name: SOCKS5CHANGE
-Version: 0.2.12+roothide
+Version: 0.2.13+roothide
 Architecture: iphoneos-arm64e
 Maintainer: Kids Repository
 Section: Utilities
 Icon: https://thanhhai09.github.io/kids-repo/repo/icons/socks5change.png
 Depends: roothide, ldid, openssh-client (>= 8.4), com.simpzan.jetsamctl, firmware (>= 15.0), curl
-Description: SSH selection fix: two workers continue past failed hosts within a bounded search; reconnect after Disconnect. Includes 0.2.11 TLS and legacy SSH support.
-Filename: debs/SOCKS5CHANGE-0.2.12-roothide.deb
-Size: 488378
-MD5sum: 4cea58afe2043bf0c8eacb172b142327
-SHA1: 326fbcebdbc03da4257c8d63567cd3ca582fe883
-SHA256: 2e4f08a8960936e4bdf992cc0f9de313f21a49fa05e13a4679d49d61a2c3c796
-SHA512: abee5a13c3c2ada8a9cfcb5588b942f5e24e8f0470e714cf8ceba99bd3ff63e46d4113fe4915203e0395697ec0ba8925a54aaee437c62869e9ab08304097b036
+Description: SSH replacement keeps the active session while checking alternatives. No disconnection when alternatives fail or are cooling down. RootHide required.
+Filename: debs/SOCKS5CHANGE-0.2.13-roothide.deb
+Size: 489030
+MD5sum: 19504b1904a5f5aadfd0f7e76201773a
+SHA1: 632c4b532c480bafeb861d66ea7d1daf633df0e7
+SHA256: 4cd1880497c92cac10d0003a315d0dd02d53203f9cbaacc91ba58f6d4456fb37
+SHA512: 72aac009714e4504e2969a702fa05bc94120e839cf0b869b6d5c169a227a485846b8ad8c354210b1b315df11040f9bc2b73dfbe164dd80104bbd24b7f4cd9ce1
 
 Package: com.deviceaudit.iosaudit
 Name: Device Audit
