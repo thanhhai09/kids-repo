@@ -219,15 +219,15 @@ Package: vn.sonnguyen.kids.roothide-v4
 Section: Utilities
 Maintainer: Hai Vo
 Architecture: iphoneos-arm64e
-Version: 0.14.32+roothide
+Version: 0.14.36+roothide
 Depends: com.iosapp.kidschanger (= 4.1.7.1+roothide), com.kidsautopro.kidsauto (= 26.10.08-10.1+roothide), roothide, firmware (>= 15.0), ldid, openssl, openssh, curl, dpkg, me.jjolano.fmwk.hookkit, me.jjolano.fmwk.modulous, me.jjolano.fmwk.rootbridge, me.jjolano.hkmodule.ellekit, cm90.crossoveripc, com.simpzan.jetsamctl
-Description: Rebuild by Hai Vo. Reliable enrollment retries after reinstall, explicit pending/offline device status, signed configuration and existing license checks preserved.
+Description: Verify applied PC Fake profile and publish identities to the apps requested by the PC; retain Safari network scope repairs.
 Name: KidsAuto v4 - Hai Vo
 Conflicts: vn.sonnguyen.kids.bridge-kit, vn.sonnguyen.kids.autodevices.prototype
-Filename: debs/KidsAuto-v4-0.14.32-enrollment-roothide.deb
-Size: 5700740
-MD5sum: 129afb7b01c16e40a6f7745828bea265
-SHA1: 9ce7b3a1d414adb4af96d654c88543d310e99f7a
-SHA256: 0074538d705165432d9204a4d197b9cd1e6d0f75da5d98d5a78be9e8d90915cc
-SHA512: 39dd8907a4a7af666585a483eb3a88a4fb399e3dd907e92884a411cac94b8caffd679894091d60559a89af26ef4cc3aecee87ff414e066c8b261a53d10688b79
+Filename: debs/KidsAuto-v4-0.14.36-pc-fake-sync-roothide.deb
+Size: 5717370
+MD5sum: ca142cc95ef671f9f9ebd6ece24471ef
+SHA1: 5154b50ea60757083c54ab0188eb070e177034f7
+SHA256: 2032bdb2b62e9733eca5dfd0947eb2bb86da7c99e158bebeb251fc86a12250f4
+SHA512: d0eed8d3c58f4d0022f69554cf9fdeeb85237c370a7288e28a7f23ea56b046313970b0b094fb5e6a4a475f6d6b5af628da4d5ed96f15e710d8959d2b6cfc1482
 
