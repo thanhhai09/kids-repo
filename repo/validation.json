@@ -1,0 +1,21 @@
+{
+  "validated": true,
+  "packages": [
+    {
+      "Package": "vn.sonnguyen.kids.socks",
+      "Version": "0.2.14.6+roothide",
+      "Architecture": "iphoneos-arm64e",
+      "Filename": "debs/SOCKS5CHANGE-0.2.14.6-safari-diagnostics-roothide.deb",
+      "Size": "526862",
+      "SHA256": "ca5e008ef0e23af318a2fd2c44af6063911480f9474536e79f9bd253491f7617"
+    },
+    {
+      "Package": "com.deviceaudit.iosaudit",
+      "Version": "0.2.5",
+      "Architecture": "iphoneos-arm64e",
+      "Filename": "debs/ios-device-audit_0.2.5_iphoneos-arm64e.deb",
+      "Size": "52914",
+      "SHA256": "2ff5ecd001b0cde34177226d5a7f72e8921360f55cb2a89b7041402edb02e581"
+    }
+  ]
+}
